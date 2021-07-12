@@ -1,5 +1,4 @@
 source $ZSH/oh-my-zsh.sh
-source ~/.bash_profile
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 # if the init script doesn't exist
