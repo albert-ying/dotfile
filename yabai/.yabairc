@@ -1,0 +1,77 @@
+#!/usr/bin/env sh
+## the scripting-addition must be loaded manually if
+# you are running yabai on macOS Big Sur. Uncomment
+# the following line to have the injection performed
+# when the config is executed during startup.
+#
+# for this to work you must configure sudo such that
+# it will be able to run the command without password
+
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+# global settings
+yabai -m config mouse_follows_focus on
+yabai -m config window_placement             second_child
+yabai -m config window_topmost               off
+yabai -m config window_shadow                float
+yabai -m config window_opacity               on
+yabai -m config window_opacity_duration      0.0
+yabai -m config active_window_opacity        0.95
+yabai -m config normal_window_opacity        0.85
+yabai -m config window_border                off
+yabai -m config insert_feedback_color        0xaad75f5f
+yabai -m config split_ratio                  0.50
+yabai -m config auto_balance                 on
+yabai -m config mouse_modifier               fn
+yabai -m config mouse_action1                move
+yabai -m config mouse_action2                resize
+#yabai -m config external_bar all:25:0
+
+# general space settings
+yabai -m config layout                       bsp
+yabai -m config top_padding                  38
+yabai -m config bottom_padding               10
+yabai -m config left_padding                 10
+yabai -m config right_padding                10
+yabai -m config window_gap                   8
+
+# mission-control desktop labels
+#yabai -m space 1 --label 壹
+#yabai -m space 2 --label 贰
+#yabai -m space 3 --label 叄
+#yabai -m space 4 --label 肆
+#yabai -m space 5 --label 伍
+#yabai -m space 6 --label 陆
+#yabai -m space 7 --label 柒
+#yabai -m space 8 --label 捌
+#yabai -m space 9 --label 玖
+#yabai -m space 10 --label 拾
+## specific space settings
+yabai -m config --space mail  layout        stack
+yabai -m config --space games layout        float
+
+# window rules
+yabai -m rule --add app="^Mail$" space=mail
+yabai -m rule --add app="^Safari$" space=web
+yabai -m rule --add app="^Notes$" space=notes
+yabai -m rule --add app="^ida64$" space=re
+yabai -m rule --add app="^Transmission$" space=media
+yabai -m rule --add app="^Spotify$" space=media
+yabai -m rule --add app="^Discord$" space=social grid=1:1:0:0:1:1 manage=off
+yabai -m rule --add app="^Steam$" space=games manage=off
+yabai -m rule --add app="^System Preferences$" manage=off
+yabai -m rule --add app="^Music$" manage=off
+yabai -m rule --add app="^QQ$" manage=off
+yabai -m rule --add app="^WeChat$" manage=off
+yabai -m rule --add app="^Slack$" manage=off
+yabai -m rule --add app="^XQuartz$" manage=off
+
+# signals
+yabai -m signal --add event=window_destroyed active=yes action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse &> /dev/null || yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id) &> /dev/null"
+# yabai -m signal --add event=window_destroyed action="echo \"destroyed window with id \$YABAI_WINDOW_ID\""
+# yabai -m signal --add event=space_changed action="echo \"changed space \$YABAI_RECENT_SPACE_ID -> \$YABAI_SPACE_ID\""
+# yabai -m signal --add event=space_changed action="yabai -m window --focus \$(yabai -m query --windows --space | jq .[0].id)"
+
+echo "yabai configuration loaded.."
+

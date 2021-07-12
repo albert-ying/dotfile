@@ -1,0 +1,308 @@
+sheet	col	row	longname	input	keystrokes	comment
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info	The actual value written for the contact entry	1	edit-cell	kying@g.harvard.edu	e	edit contents of current cell
+contact_info	The actual value written for the contact entry	2	edit-cell	@KejunY	e	edit contents of current cell
+contact_info	The actual value written for the contact entry	3	edit-cell	github.com/albert-ying	e	edit contents of current cell
+contact_info	The actual value written for the contact entry	4	edit-cell	TBD	e	edit contents of current cell
+contact_info		5	delete-row		d	delete current row
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info			splitwin-swap		^I	jump to inactive pane
+contact_info			splitwin-swap		^I	jump to inactive pane
+entries	Where in your CV this entry belongs		key-col		!	toggle current column as a key column
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キindustry_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キteaching_positions	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キdata_science_writings	delete-row		d	delete current row
+entries		キabout_me_press	delete-row		d	delete current row
+entries		キabout_me_press	delete-row		d	delete current row
+entries		キabout_me_press	delete-row		d	delete current row
+entries		キby_me_press	delete-row		d	delete current row
+entries		キby_me_press	delete-row		d	delete current row
+entries		キby_me_press	delete-row		d	delete current row
+entries		キby_me_press	delete-row		d	delete current row
+entries		キby_me_press	delete-row		d	delete current row
+			open-vd		V	open VisiData menu: browse list of core sheets
+entries	Main title of the entry	キeducation	edit-cell	Ph.D. student, Biological Science in Public Health	e	edit contents of current cell
+entries	Main title of the entry	キeducation	edit-cell	Ph.D. student, Biological Science in Public Health, Gladyshev lab	e	edit contents of current cell
+entries	Location the entry occured	キeducation	edit-cell	Harvard University, Gladyshev lab	e	edit contents of current cell
+entries	Main title of the entry	キeducation	edit-cell	Ph.D. student, Biological Science in Public Health	e	edit contents of current cell
+entries	Primary institution affiliation for entry	キeducation	edit-cell	Cambridge, MA	e	edit contents of current cell
+entries	Start date of entry (year)	キeducation	edit-cell	2019	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	キeducation	edit-cell	Current	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	キeducation	edit-cell	Focused on understanding the of mechanism of aging through multi-omic modeling & causal inference.	e	edit contents of current cell
+entries	7	キeducation	edit-cell	University Graduate Fellow	e	edit contents of current cell
+entries	7	キeducation	edit-cell	University Graduate Fellow	e	edit contents of current cell
+entries	7	キeducation	delete-cell		zd	delete current cell (set to None)
+entries	7	キeducation	edit-cell		e	edit contents of current cell
+entries	Main title of the entry	キeducation	edit-cell	B.S., Biology	e	edit contents of current cell
+entries	Location the entry occured	キeducation	edit-cell	Sun Yat-sen University	e	edit contents of current cell
+entries	Primary institution affiliation for entry	キeducation	edit-cell	Guangzhou, China	e	edit contents of current cell
+entries	Start date of entry (year)	キeducation	edit-cell	2015	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	キeducation	edit-cell	2019	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	キeducation	edit-cell	Thesis: Screening for the Interactome of hTERC based on Molecular Fluorescence Complementation System in Living Cells	e	edit contents of current cell
+entries	7	キresearch_positions	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries	7	キeducation	edit-cell	 Yat-Sen Honor School Program	e	edit contents of current cell
+entries	7	キeducation	edit-cell	Yat-Sen Honor School Program	e	edit contents of current cell
+entries	Primary institution affiliation for entry	キresearch_positions	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries	Location the entry occured	キresearch_positions	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+language_skills		2	delete-row		d	delete current row
+language_skills		2	delete-row		d	delete current row
+language_skills		4	delete-row		d	delete current row
+language_skills		4	delete-row		d	delete current row
+language_skills		2	add-row		a	append a blank row
+language_skills		3	delete-row		d	delete current row
+language_skills	Name of language	2	edit-cell	Python	e	edit contents of current cell
+language_skills		3	delete-row		d	delete current row
+language_skills		3	slide-up		K	slide current row up
+language_skills		2	slide-up		K	slide current row up
+language_skills		1	slide-down		J	slide current row down
+language_skills	Relative numeric level of skill	3	edit-cell	2	e	edit contents of current cell
+language_skills			save-sheet	language_skills.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+text_blocks			save-sheet	text_blocks.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info			splitwin-swap		^I	jump to inactive pane
+entries	Main title of the entry	1	edit-cell	Ph.D. Student, Biological Science in Public Health	e	edit contents of current cell
+entries		2	add-row		a	append a blank row
+entries		2	copy-row		y	yank (copy) current row to clipboard
+entries		3	paste-after		p	paste clipboard rows after current row
+entries		3	delete-row		d	delete current row
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info			splitwin-swap		^I	jump to inactive pane
+entries		3	delete-row		d	delete current row
+entries	Main title of the entry	1	copy-cell		zy	yank (copy) current cell to clipboard
+entries	Location the entry occured	1	paste-cell		zp	set contents of current cell to last clipboard value
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health, Gladyshev lab	e	edit contents of current cell
+entries	Main title of the entry	1	edit-cell	Harvard University	e	edit contents of current cell
+entries	Main title of the entry	2	copy-cell		zy	yank (copy) current cell to clipboard
+entries	Location the entry occured	2	paste-cell		zp	set contents of current cell to last clipboard value
+entries	Main title of the entry	2	edit-cell	Sun Yat-Sen University	e	edit contents of current cell
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health
+Harvard School of Public Health | Harvard Medical School | Gladyshev lab	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health\\nHarvard School of Public Health | Harvard Medical School | Gladyshev lab	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health\nHarvard School of Public Health | Harvard Medical School | Gladyshev lab	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health <br> Harvard School of Public Health | Harvard Medical School | Gladyshev lab	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health <br> Harvard School of Public Health | Harvard Medical School	e	edit contents of current cell
+entries	Primary institution affiliation for entry	1	edit-cell	Boston, MA	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	1	copy-cell		zy	yank (copy) current cell to clipboard
+entries	7	1	paste-cell		zp	set contents of current cell to last clipboard value
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	1	edit-cell	**Advisor**: Vadim Gladyshev	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	1	edit-cell	**Advisor: Vadim Gladyshev**	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	7	1	copy-cell		zy	yank (copy) current cell to clipboard
+entries	8	1	paste-cell		zp	set contents of current cell to last clipboard value
+entries	Location the entry occured	1	edit-cell	Ph.D. Student, Biological Science in Public Health	e	edit contents of current cell
+entries	7	1	edit-cell	**BPH Program | Harvard T. H. Chan School of Public Health**
+<br>
+**Harvard Medical School | Brigham & Women's Hospital**	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	1	edit-cell	Advisor: Vadim Gladyshev	e	edit contents of current cell
+entries	7	1	edit-cell	BPH Program | Harvard T. H. Chan School of Public Health
+<br>
+Harvard Medical School | Brigham & Women's Hospital	e	edit contents of current cell
+entries	Main title of the entry	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries		3	delete-row		d	delete current row
+entries	Main title of the entry	8	edit-cell	Aging and Mitochondrial Disease: Shared Mechanisms and Therapies?	e	edit contents of current cell
+entries	Location the entry occured	8	edit-cell	Innovation in Aging <br>
+Bitto, A., Tung, H., **Ying, K.**, Smith, D. L., Kayser, E. B., Morgan, P. G., ... & Kaeberlein, M. (2019). Innovation in Aging, 3(Suppl 1), S395-S395.	e	edit contents of current cell
+entries	Start date of entry (year)	8	edit-cell	2019	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	8	edit-cell	2019	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	8	delete-cell		zd	delete current cell (set to None)
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Start date of entry (year)	8	delete-cell		zd	delete current cell (set to None)
+entries	Location the entry occured	8	edit-cell	Bitto, A., Tung, H., **Ying, K.**, Smith, D. L., Kayser, E. B., Morgan, P. G., ... & Kaeberlein, M. (2019). *Innovation in Aging*, 3(Suppl 1), S395-S395.	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		9	delete-row		d	delete current row
+entries		8	copy-row		y	yank (copy) current row to clipboard
+entries		8	paste-after		p	paste clipboard rows after current row
+entries	Main title of the entry	9	delete-cell		zd	delete current cell (set to None)
+entries	Location the entry occured	9	edit-cell	Bitto, A., Tung, H., **Ying, K.**, Smith, D. L., Kayser, E. B., Morgan, P. G., ... & Kaeberlein, M. (2019). AGING AND MITOCHONDRIAL DISEASE: SHARED MECHANISMS AND THERAPIES?. *Innovation in Aging*, 3(Suppl 1), S395-S395.	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries		8	copy-row		y	yank (copy) current row to clipboard
+entries		8	paste-after		p	paste clipboard rows after current row
+entries		10	delete-row		d	delete current row
+entries	Main title of the entry	9	edit-cell	Phosphorylation of PLIN3 by AMPK promotes dispersion of lipid droplets during starvation	e	edit contents of current cell
+entries	Location the entry occured	9	edit-cell	Zhu, J., Xu, M., Liu, Y., Zhuang, L., **Ying, K.**, Liu, F., Liu, D., Ma, W., & Songyang, Z. (2018). *Protein & Cell*.	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	9	edit-cell	2018	e	edit contents of current cell
+entries		8	copy-row		y	yank (copy) current row to clipboard
+entries		8	paste-after		p	paste clipboard rows after current row
+entries	Main title of the entry	8	edit-cell	Genetic and Phenotypic Evidence for the Causal Relationship between Aging and COVID-19	e	edit contents of current cell
+entries	Location the entry occured	8	edit-cell	**Ying, K.**, Zhai, R., Pyrkov, T. V., Mariotti, M., Fedichev, P. O., Shen, X., & Gladyshev, V. N. (2020). *medRxiv*.	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	8	edit-cell	2021	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	8	edit-cell	2020	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries			splitwin-swap		^I	jump to inactive pane
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info		1	copy-row		y	yank (copy) current row to clipboard
+contact_info		1	paste-after		p	paste clipboard rows after current row
+contact_info	Id of contact section	2	edit-cell	phone	e	edit contents of current cell
+contact_info	Icon used from font-awesome 4 to label this contact section	2	edit-cell	phone	e	edit contents of current cell
+contact_info	The actual value written for the contact entry	2	edit-cell	+1 (617)-800-3292	e	edit contents of current cell
+contact_info	Icon used from font-awesome 4 to label this contact section	2	edit-cell	mobile-alt	e	edit contents of current cell
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+text_blocks	Id used for finding text block	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+text_blocks		2	delete-row		d	delete current row
+text_blocks		2	delete-row		d	delete current row
+text_blocks		2	delete-row		d	delete current row
+text_blocks	Contents of text block. Supports markdown formatting.	1	edit-cell		e	edit contents of current cell
+text_blocks			save-sheet	text_blocks.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+text_blocks	Contents of text block. Supports markdown formatting.	1	edit-cell	 	e	edit contents of current cell
+text_blocks			save-sheet	text_blocks.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info			splitwin-swap		^I	jump to inactive pane
+entries			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キtext_blocks	open-row		^J	open sheet referenced in current row
+text_blocks	Contents of text block. Supports markdown formatting.	1	edit-cell	<br>	e	edit contents of current cell
+text_blocks			save-sheet	text_blocks.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+text_blocks	Contents of text block. Supports markdown formatting.	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-new		A	open new blank sheet
+unnamed			unselect-row		u	unselect current row
+entries		3	add-row		a	append a blank row
+entries		3	copy-row		y	yank (copy) current row to clipboard
+entries		3	paste-before		P	paste clipboard rows before current row
+entries	Main title of the entry	3	edit-cell	Graduate Researcher	e	edit contents of current cell
+entries	Location the entry occured	3	edit-cell	Gladyshev Laboratory	e	edit contents of current cell
+entries	Primary institution affiliation for entry	3	edit-cell	Harvard University	e	edit contents of current cell
+entries	Start date of entry (year)	3	edit-cell	2020	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	3	edit-cell	Current	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	3	edit-cell	Using genome-phenotype associations to separate adaptive changes and damanging changes during aging.	e	edit contents of current cell
+entries		3	copy-row		y	yank (copy) current row to clipboard
+entries		3	paste-after		p	paste clipboard rows after current row
+entries	Main title of the entry	4	edit-cell	Rotation Student	e	edit contents of current cell
+entries	Location the entry occured	4	edit-cell	Eric Greer's Laboratory	e	edit contents of current cell
+entries	Location the entry occured	3	edit-cell	Vadim Gladyshev's Lab	e	edit contents of current cell
+entries	Location the entry occured	4	edit-cell	Eric Greer's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	4	edit-cell	Boston Children's Hospital (Department of Pediatrics)	e	edit contents of current cell
+entries	Primary institution affiliation for entry	3	edit-cell	Harvard Medical School	e	edit contents of current cell
+entries	Start date of entry (year)	4	delete-cell		zd	delete current cell (set to None)
+entries	End year of entry. Set to "current" if entry is still ongoing.	4	edit-cell	2020	e	edit contents of current cell
+entries	7	4	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	4	edit-cell	Studied various forms of RNA modification and their role in aging.	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	3	edit-cell	Using genome-phenotype associations to separate adaptive changes and damanging changes during aging.	e	edit contents of current cell
+entries	Primary institution affiliation for entry	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries		4	copy-row		y	yank (copy) current row to clipboard
+entries		4	paste-after		p	paste clipboard rows after current row
+entries	Location the entry occured	5	edit-cell	David Sinclair's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	5	edit-cell	Harvard Medical School	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	5	edit-cell	2019	e	edit contents of current cell
+entries		8	delete-row		d	delete current row
+entries		8	delete-row		d	delete current row
+entries		8	delete-row		d	delete current row
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	5	edit-cell	nvestigated the role of 6mA DNA methylation in rejuvenating effects of partial epigenetic reprogramming.	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	5	edit-cell	Investigated the role of 6mA DNA methylation in rejuvenating effects of partial epigenetic reprogramming.	e	edit contents of current cell
+entries	Location the entry occured	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries		5	copy-row		y	yank (copy) current row to clipboard
+entries		5	paste-after		p	paste clipboard rows after current row
+entries	Main title of the entry	6	edit-cell	Rotation Student	e	edit contents of current cell
+entries	Location the entry occured	6	edit-cell	Brendan Manning's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	6	edit-cell	Harvard T. H. Chan School of Public Health	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	6	edit-cell	Studied the integration of oncogenic signal by the TSC complex and its role in regulating mTOR signaling in cancer cell.	e	edit contents of current cell
+entries	Main title of the entry	7	edit-cell	Undergraduate Researcher	e	edit contents of current cell
+entries	Location the entry occured	7	edit-cell	Zhou Songyang's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	7	edit-cell	Sun Yat-Sen University	e	edit contents of current cell
+entries	Start date of entry (year)	7	delete-cell		zd	delete current cell (set to None)
+entries	Start date of entry (year)	7	edit-cell	2018	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	7	edit-cell	2019	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	7	edit-cell	Researched the regulatory mechanism of telomerase and AMPK by analyzing their interactome.	e	edit contents of current cell
+entries	7	7	edit-cell	Thesis work: Constructed the TriFC system for genome-wide high-throughput TERC-protein interaction screening.	e	edit contents of current cell
+entries		8	delete-row		d	delete current row
+entries		7	copy-row		y	yank (copy) current row to clipboard
+entries		7	paste-after		p	paste clipboard rows after current row
+entries	7	8	delete-cell		zd	delete current cell (set to None)
+entries	Start date of entry (year)	8	edit-cell	2017	e	edit contents of current cell
+entries	End year of entry. Set to "current" if entry is still ongoing.	8	edit-cell	2018	e	edit contents of current cell
+entries	Location the entry occured	8	edit-cell	Xia Shen's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	8	edit-cell	University of Edinburgh	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	8	edit-cell	Worked to identify disease signatures on EVs using integrative analysis of single-EV proteomics data, GWAS data, and other transcriptomics data (Undergraduate Research Program Grant).	e	edit contents of current cell
+entries		8	copy-row		y	yank (copy) current row to clipboard
+entries		8	paste-after		p	paste clipboard rows after current row
+entries	Location the entry occured	9	edit-cell	Matt Kaeberlein's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	9	edit-cell	University of Washington	e	edit contents of current cell
+entries	Start date of entry (year)	9	delete-cell		zd	delete current cell (set to None)
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	9	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	9	edit-cell	Studied the role of rapamycin and acarbose treatment in restoring mitochondrial function and shifting lipid metabolism.	e	edit contents of current cell
+entries	7	9	edit-cell	Result will be presented on Geological Society of America Annual Scientific Meeting 2019.	e	edit contents of current cell
+entries	7	9	edit-cell	Results are presented on Geological Society of America Annual Scientific Meeting 2019.	e	edit contents of current cell
+entries		9	copy-row		y	yank (copy) current row to clipboard
+entries		9	paste-after		p	paste clipboard rows after current row
+entries	Location the entry occured	10	edit-cell	Judith Campisi's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	10	edit-cell	Buck Institute for Research on Aging	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	10	edit-cell	Studied the effect of senolytics ABT263 on non-senescent myofibroblasts.	e	edit contents of current cell
+entries	7	10	delete-cell		zd	delete current cell (set to None)
+entries		10	open-row		^J	open sheet with copies of rows referenced in current row
+entries	Location the entry occured	11	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+entries		10	copy-row		y	yank (copy) current row to clipboard
+entries		10	paste-after		p	paste clipboard rows after current row
+entries	End year of entry. Set to "current" if entry is still ongoing.	11	edit-cell	2017	e	edit contents of current cell
+entries	Location the entry occured	11	edit-cell	Danica Chen's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	11	edit-cell	University of California, Berkeley	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	11	edit-cell	Studied SIRT7 activators as potential therapy for HSC aging	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	11	edit-cell	Studied SIRT7 activators as potential therapy for HSC aging.	e	edit contents of current cell
+entries		11	copy-row		y	yank (copy) current row to clipboard
+entries		11	paste-after		p	paste clipboard rows after current row
+entries	Location the entry occured	12	edit-cell	Yikang Rong's Lab	e	edit contents of current cell
+entries	Primary institution affiliation for entry	12	edit-cell	Sun Yat-Sen University	e	edit contents of current cell
+entries	Start date of entry (year)	12	edit-cell	2015	e	edit contents of current cell
+entries	Each description column is a separate bullet point for the entry. If you need more description bullet points simply add a new column with title "description_{4,5,..}"	12	edit-cell	Examined emerging role of 6mA methylation in fruit fly.	e	edit contents of current cell
+entries	7	12	edit-cell	Knocked out three putative DNA 6mA methylase genes in Drosophila, using CRISPR-Cas9, and assessed the phenotypes.	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries			splitwin-swap		^I	jump to inactive pane
+contact_info		5	copy-row		y	yank (copy) current row to clipboard
+contact_info		5	paste-after		p	paste clipboard rows after current row
+contact_info	Id of contact section	6	edit-cell	address	e	edit contents of current cell
+contact_info	Icon used from font-awesome 4 to label this contact section	6	edit-cell	map-marked-alt	e	edit contents of current cell
+contact_info	The actual value written for the contact entry	6	edit-cell	77 Avenue Louis Pasteur<br>
+HMS New Research Building<br>
+Room 435<br>
+Boston, MA 02115	e	edit contents of current cell
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info	The actual value written for the contact entry	6	edit-cell	77 Avenue Louis Pasteur<br>
+    HMS New Research Building<br>
+    Room 435<br>
+    Boston, MA 02115	e	edit contents of current cell
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+contact_info	The actual value written for the contact entry	6	edit-cell	<br>
+77 Avenue Louis Pasteur<br>
+HMS New Research Building<br>
+Room 435<br>
+Boston, MA 02115	e	edit contents of current cell
+contact_info			save-sheet	contact_info.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries	Primary institution affiliation for entry	4	edit-cell	Boston Children's Hospital	e	edit contents of current cell
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+entries			save-sheet	entries.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+supermeta_GTEx	pert_iname	101034	copy-cell		zy	yank (copy) current cell to clipboard
+			open-file	/Users/A.Y/OneDrive - Harvard University/Projects/2020_Gladyshev_lab/1_Aging_signature_TWMR/CMap_result/Albert_compounds_April26_2021.xlsx	o	open input in VisiData
+Albert_compounds_April26_2021		キAlbert_compounds_April23_2021_A	open-row		^J	open sheet with copies of rows referenced in current row
+dat1cf812cff202	Gene Symbol	11	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+dat1cf812cff202			splitwin-swap		^I	jump to inactive pane
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+dat7102525921e6		0	stoggle-row		t	toggle selection of current row
+dat7102525921e6	Gene Name	38	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position

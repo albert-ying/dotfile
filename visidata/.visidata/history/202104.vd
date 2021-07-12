@@ -1,0 +1,932 @@
+sheet	col	row	longname	input	keystrokes	comment
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1	moa		copy-cells		gzy	yank (copy) contents of current column for selected rows to clipboard
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		2	unselect-row		u	unselect current row
+Albert_compounds_apr12_Sheet1		3	select-row		s	select current row
+Albert_compounds_apr12_Sheet1			copy-selected		gy	yank (copy) selected rows to clipboard
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1	Drug		copy-cells		gzy	yank (copy) contents of current column for selected rows to clipboard
+Albert_compounds_apr12_Sheet1	Drug		copy-cells		gzy	yank (copy) contents of current column for selected rows to clipboard
+Albert_compounds_apr12_Sheet1			copy-selected		gy	yank (copy) selected rows to clipboard
+Albert_compounds_apr12_Sheet1	Drug		copy-cells		gzy	yank (copy) contents of current column for selected rows to clipboard
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	unselect-row		u	unselect current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	note	2	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12_Sheet1	note	2	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12	nCols	キSheet1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	Drug	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-config		gO	open options.config as text sheet
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	Target	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	note	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12_Sheet1		3	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		3	select-row		s	select current row
+Albert_compounds_apr12_Sheet1			unselect-rows		gu	unselect all rows
+Albert_compounds_apr12_Sheet1		0	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1			unselect-rows		gu	unselect all rows
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1			unselect-rows		gu	unselect all rows
+Albert_compounds_apr12_Sheet1	moa	2	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		3	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		2	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		4	select-row		s	select current row
+Albert_compounds_apr12_Sheet1	moa		key-col		!	toggle current column as a key column
+Albert_compounds_apr12_Sheet1			unselect-rows		gu	unselect all rows
+Albert_compounds_apr12_Sheet1	moa		key-col		!	toggle current column as a key column
+Albert_compounds_apr12_Sheet1		3	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		1	unselect-row		u	unselect current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		3	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	note	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		3	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	moa	2	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1[[1]]	Albert_compounds_apr12_Sheet1[[1]]	3	edit-cell	iiiii	e	edit contents of current cell
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	Exist oral
+administration design		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+Albert_compounds_apr12_Sheet1		3	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		3	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		0	select-row		s	select current row
+Albert_compounds_apr12_Sheet1		0	select-row		s	select current row
+Albert_compounds_apr12_Sheet1			unselect-rows		gu	unselect all rows
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		0	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1[[0]]		7	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	reference (PMID)		type-string		~	set type of current column to str
+Albert_compounds_apr12_Sheet1	reference (PMID)	0	edit-cell	23603800	e	edit contents of current cell
+Albert_compounds_apr12_Sheet1	reference (PMID)	2	edit-cell	19997628	e	edit contents of current cell
+Albert_compounds_apr12_Sheet1	reference (PMID)	3	edit-cell	29155150	e	edit contents of current cell
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キAlbert_compounds_apr12_Sheet1	open-row		^J	open sheet referenced in current row
+Albert_compounds_apr12_Sheet1		1	slide-up		K	slide current row up
+Albert_compounds_apr12_Sheet1			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			addcol-incr		i	add column with incremental values
+Albert_compounds_apr12_Sheet1	A	2	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_apr12_Sheet1		2	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			cmdlog-sheet-only		zD	open current sheet's CommandLog with parent sheets commands' removed
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			addcol-incr		i	add column with incremental values
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キA	delete-row		d	delete current row
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.tsv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.tsv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12_Sheet1	moa	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	moa	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	reference (PMID)		type-string		~	set type of current column to str
+Albert_compounds_apr12_Sheet1	reference (PMID)		type-string		~	set type of current column to str
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.tsv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12_Sheet1		0	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1	Note for administratrion	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_apr12_Sheet1	Note for administratrion	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+global_options		キdisp_float_fmt	unselect-row		u	unselect current row
+global_options		キdisp_int_fmt	unselect-row		u	unselect current row
+global_options		キdisp_date_fmt	unselect-row		u	unselect current row
+global_options		キcol_cache_size	unselect-row		u	unselect current row
+global_options		キclean_names	unselect-row		u	unselect current row
+global_options		キdefault_width	unselect-row		u	unselect current row
+global_options		キdefault_height	unselect-row		u	unselect current row
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.pdf	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12_Sheet1		2	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		4	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		3	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		0	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1		1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_apr12_Sheet1.xls	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+Albert_compounds_apr12_Sheet1			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12_Sheet1			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12_Sheet1			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_apr12			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_apr12_Sheet1			splitwin-swap-pane		g^I	swap panes onscreen
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キAlbert_compounds_apr12	open-row		^J	open sheet referenced in current row
+Albert_compounds_apr12		キSheet1	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キAlbert_compounds_apr12_Sheet1	open-row		^J	open sheet referenced in current row
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1	Drug		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+Albert_compounds_apr12_Sheet1		4	copy-row		y	yank (copy) current row to clipboard
+Albert_compounds_apr12_Sheet1		4	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1		4	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1		4	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1		4	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1		4	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1	Drug		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+Albert_compounds_apr12_Sheet1	moa	3	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_apr12_Sheet1		3	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1		5	unselect-row		u	unselect current row
+Albert_compounds_apr12_Sheet1	moa		slide-left		H	slide current column left
+Albert_compounds_apr12_Sheet1	moa		slide-left		H	slide current column left
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キDrug	copy-row		y	yank (copy) current row to clipboard
+Albert_compounds_apr12_Sheet1_columns		キDrug	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1_columns		キDrug	paste-after		p	paste clipboard rows after current row
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キDrug	delete-row		d	delete current row
+Albert_compounds_apr12_Sheet1_columns		キDrug	delete-row		d	delete current row
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キNote for administratrion	freq-row		^J	open a Frequency Table sheet grouped on column referenced in current row
+Albert_compounds_apr12_Sheet1_columns		キDrug	freq-row		^J	open a Frequency Table sheet grouped on column referenced in current row
+Albert_compounds_apr12_Sheet1_columns		キTarget	freq-row		^J	open a Frequency Table sheet grouped on column referenced in current row
+Albert_compounds_apr12_Sheet1_Target_freq		キNA	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1_Target_freq		キBIRC5	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キDrug	delete-row		d	delete current row
+Albert_compounds_apr12_Sheet1_columns		キmoa	paste-before		P	paste clipboard rows before current row
+Albert_compounds_apr12_Sheet1			addcol-incr		i	add column with incremental values
+Albert_compounds_apr12_Sheet1			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_apr12_Sheet1_columns		キA	delete-row		d	delete current row
+Albert_compounds_apr12_Sheet1	Drug	0	edit-cell	LY-2090314	e	edit contents of current cell
+Albert_compounds_apr12_Sheet1			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			addcol-incr		i	add column with incremental values
+Albert_compounds_April23_2021			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_April23_2021_columns		キA	delete-row		d	delete current row
+Albert_compounds_April23_2021	Drug	1	edit-cell	Ro-4987655	e	edit contents of current cell
+Albert_compounds_April23_2021	Drug	2	edit-cell	tyrphostin 1	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		3	slide-up		K	slide current row up
+Albert_compounds_April23_2021		2	slide-down		J	slide current row down
+			open-colors			open Color Sheet with avaiable terminal colors
+			open-plugins			open Plugins Sheet: manage your session environment for a curated set of plugins
+plugins_global		キdiff	open-row		^J	open sheet with copies of rows referenced in current row
+plugins_global		キdarkdraw	open-row		^J	open sheet with copies of rows referenced in current row
+plugins_global			addcol-incr		i	add column with incremental values
+plugins_global			addcol-incr		i	add column with incremental values
+plugins_global			addcol-incr		i	add column with incremental values
+plugins_global		キdiff	add-plugin		a	install and activate current plugin
+plugins_global		キdarkdraw	add-plugin		a	install and activate current plugin
+plugins_global		キdarkdraw	open-row		^J	open sheet with copies of rows referenced in current row
+plugins_global[darkdraw]		キname	add-row		a	append a blank row
+plugins_global[darkdraw]		キBasicRow(<function BasicRow.__init__.<locals>.<lambda> at 0x10a959e50>, {})	delete-row		d	delete current row
+plugins_global		キdarkdraw	add-plugin		a	install and activate current plugin
+plugins_global		キdarkdraw	add-plugin		a	install and activate current plugin
+plugins_global		キrownum	add-plugin		a	install and activate current plugin
+			open-config		gO	open options.config as text sheet
+.visidatarc		12	add-row		a	append a blank row
+			open-config		gO	open options.config as text sheet
+.visidatarc	text	9	edit-cell	options.quitguard = True	e	edit contents of current cell
+.visidatarc			save-sheet	/Users/A.Y/.visidatarc	w	save current sheet to filename in format determined by extension (default .tsv)
+			open-config		gO	open options.config as text sheet
+global_options		キdisp_splitwin_pct	slide-up		K	slide current row up
+global_options		キdisp_splitwin_pct	slide-up		K	slide current row up
+global_options		キdisp_splitwin_pct	slide-up		K	slide current row up
+global_options		キdisp_splitwin_pct	slide-up		K	slide current row up
+			open-vd		V	open VisiData menu: browse list of core sheets
+Albert_compounds_April23_2021			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+Albert_compounds_April23_2021			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キsheets	open-row		^J	open sheet referenced in current row
+sheets		キsheets	open-row		^J	open sheet referenced in current row
+sheets		キAlbert_compounds_April23_2021	open-row		^J	open sheet referenced in current row
+bouncyball			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キbouncyball	open-row		^J	open sheet referenced in current row
+bouncyball	19 21	9 11	dive-cursor		^J	
+bouncyball			reset-time		r	
+bouncyball			reset-time		r	
+bouncyball			reset-time		r	
+Albert_compounds_April23_2021	Drug	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021	Drug	3	edit-cell	IKK-2-inhibitor-V	e	edit contents of current cell
+Albert_compounds_April23_2021	Drug	4	edit-cell	10-DEBC	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	Oral supplementation reference		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Oral supplementation reference		rename-col	Oral supplementation reference (PMID)	^	edit name of current column
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Drug		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	moa	キLY-2090314	edit-cell	AKT inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021	Target	キLY-2090314	edit-cell	PIM1	e	edit contents of current cell
+Albert_compounds_April23_2021			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_April23_2021_columns		キDose in food 
+(mg/kg)	add-row		a	append a blank row
+Albert_compounds_April23_2021_columns	name		slide-right		L	slide current column right
+Albert_compounds_April23_2021_columns	name	キA	edit-cell	LD50	e	edit contents of current cell
+Albert_compounds_April23_2021_columns	name	キLD50	edit-cell	LD50	e	edit contents of current cell
+Albert_compounds_April23_2021_columns	width	キLD50	edit-cell	1	e	edit contents of current cell
+Albert_compounds_April23_2021_columns	name	キNote for administratrion	edit-cell	Summary of previous publication on mice	e	edit contents of current cell
+Albert_compounds_April23_2021_columns		キOral supplementation reference (PMID)	delete-row		d	delete current row
+			open-statuses		^P	open Status History
+Albert_compounds_April23_2021_columns		キOral supplementation reference (PMID)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キOral supplementation reference (PMID)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キOral supplementation reference (PMID)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キExist oral
+administration design	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キExist oral
+administration design	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キExist oral
+administration design	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キExist oral
+administration design	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キExist oral
+administration design	slide-up		K	slide current row up
+Albert_compounds_April23_2021_columns		キDose per weight 
+(mg/kg)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キDose per weight 
+(mg/kg)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キDose in food 
+(mg/kg)	slide-down		J	slide current row down
+Albert_compounds_April23_2021_columns		キLD50	add-row		a	append a blank row
+Albert_compounds_April23_2021_columns	name	キB	edit-cell	Grade	e	edit contents of current cell
+Albert_compounds_April23_2021	Grade		type-string		~	set type of current column to str
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021	Grade		setcol-iter	"P"	gz=	set current column for selected rows to the items in result of Python sequence expression
+Albert_compounds_April23_2021	moa	キLY-2090314	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	キ10-DEBC	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Target	キLY-2090314	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Target	キ10-DEBC	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	moa	キLY-2090314	edit-cell	GSK-3 inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021	Target	キLY-2090314	edit-cell	GSK-3	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		キLY-2090314	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021[LY-2090314]	Albert_compounds_April23_2021[LY-2090314]	3	edit-cell	A lipid-lowering agent. It's the derivative of clofibrate, which is known to extend lifespan in C.elegans [1].	e	edit contents of current cell
+Albert_compounds_April23_2021[LY-2090314]	Albert_compounds_April23_2021[LY-2090314]	5	edit-cell	ass	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キLY-2090314	edit-cell	GSK3 may play in normative aging and how GSK3 might be a suitable target to oppose age-related disease vulnerability...	e	edit contents of current cell
+Albert_compounds_April23_2021	reference (PMID)		type-string		~	set type of current column to str
+Albert_compounds_April23_2021	reference (PMID)	キLY-2090314	edit-cell	31313216	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キLY-2090314	edit-cell	2.5286	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50		rename-col	LD50	^	edit name of current column
+Albert_compounds_April23_2021	note	キLY-2090314	edit-cell	GSK3 may play in normative aging and might be a suitable target to oppose age-related disease vulnerability...	e	edit contents of current cell
+Albert_compounds_April23_2021	Grade	キLY-2090314	setcell-expr	2	z=	evaluate Python expression on current row and set current cell with result of Python expression
+Albert_compounds_April23_2021			addcol-new	Time = 1	za	append an empty column
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021		キLY-2090314	select-row		s	select current row
+Albert_compounds_April23_2021	Grade		setcol-iter	"o"	gz=	set current column for selected rows to the items in result of Python sequence expression
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021	Grade		select-col-regex	"P"	|	select rows matching regex in current column
+Albert_compounds_April23_2021	Grade		select-col-regex	P	|	select rows matching regex in current column
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		select-col-regex	40.0	|	select rows matching regex in current column
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			select-rows		gs	select all rows
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		setcol-expr	f"2020-{cursorCol}"	g=	set current column for selected rows to result of Python expression
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		setcol-expr	 f"2020-{cursorCol}"	g=	set current column for selected rows to result of Python expression
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		setcol-expr	f"2020-{cursorCol}"	g=	set current column for selected rows to result of Python expression
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	LD50		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		setcol-expr	i"2020-{cursorCol}"	g=	set current column for selected rows to result of Python expression
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		addcol-expr	True	=	create new column from Python expression, with column names as variables
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		addcol-expr	"fat"	=	create new column from Python expression, with column names as variables
+Albert_compounds_April23_2021			unselect-rows		gu	unselect all rows
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		addcol-expr	2+{curcol}	=	create new column from Python expression, with column names as variables
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		addcol-expr	f"2+{curcol}"	=	create new column from Python expression, with column names as variables
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		addcol-expr	2 + curcol	=	create new column from Python expression, with column names as variables
+dat126e94ea270e6	Sepal.Length		key-col		!	toggle current column as a key column
+dat126e94ea270e6	Sepal.Length		key-col		!	toggle current column as a key column
+dat126e94ea270e6	Sepal.Length		key-col		!	toggle current column as a key column
+dat126e94ea270e6	Petal.Width		plot-column		.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+dat126e9aa2345f			addcol-incr		i	add column with incremental values
+Albert_compounds_April23_2021		キ10-DEBC	slide-up		K	slide current row up
+Albert_compounds_April23_2021		キ10-DEBC	slide-up		K	slide current row up
+Albert_compounds_April23_2021		キ10-DEBC	slide-up		K	slide current row up
+Albert_compounds_April23_2021		キ10-DEBC	slide-up		K	slide current row up
+Albert_compounds_April23_2021		キ10-DEBC	slide-up		K	slide current row up
+Albert_compounds_April23_2021	note	キ10-DEBC	setcell-expr	""	z=	evaluate Python expression on current row and set current cell with result of Python expression
+Albert_compounds_April23_2021	Drug	キ10-DEBC	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	キRo-4987655	edit-cell	MEK inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_April23_2021	Target	キRo-4987655	edit-cell	MAP2K1	e	edit contents of current cell
+			open-file	/Users/A.Y/OneDrive - Harvard University/Projects/2020_Gladyshev_lab/1_Aging_signature_TWMR/CMap_result/supermeta.txt	o	open input in VisiData
+supermeta			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キAlbert_compounds_April23_2021[LY-2090314]	open-row		^J	open sheet referenced in current row
+supermeta	sig_id		key-col		!	toggle current column as a key column
+supermeta	sig_id		key-col		!	toggle current column as a key column
+supermeta	pert_iname		key-col		!	toggle current column as a key column
+supermeta	moa		key-col		!	toggle current column as a key column
+supermeta	clinical_phase		key-col		!	toggle current column as a key column
+supermeta	target		key-col		!	toggle current column as a key column
+supermeta	disease_area		key-col		!	toggle current column as a key column
+supermeta	indication		key-col		!	toggle current column as a key column
+			open-new		A	open new blank sheet
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta	clinical_phase	キCP-724714,EGFR inhibitor|protein tyrosine kinase inhibitor,Phase 2,ERBB2,NA,NA	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+supermeta	target	キcrizotinib,ALK tyrosine kinase receptor inhibitor,Launched,ALK|MET,oncology,non-small cell lung cancer (NSCLC)	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-new		A	open new blank sheet
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta			splitwin-swap		^I	jump to inactive pane
+supermeta	clinical_phase	キCP-724714,EGFR inhibitor|protein tyrosine kinase inhibitor,Phase 2,ERBB2,NA,NA	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-file	/Users/A.Y/OneDrive - Harvard University/Projects/2020_Gladyshev_lab/1_Aging_signature_TWMR/CMap_result/supermeta.txt	o	open input in VisiData
+Albert_compounds_April23_2021	Drug	1	copy-cell		zy	yank (copy) current cell to clipboard
+supermeta	pert_iname		key-col		!	toggle current column as a key column
+supermeta	pert_idose		slide-right		L	slide current column right
+supermeta	clinical_phase		key-col		!	toggle current column as a key column
+supermeta	moa		key-col		!	toggle current column as a key column
+supermeta	target		key-col		!	toggle current column as a key column
+supermeta	disease_area		key-col		!	toggle current column as a key column
+supermeta	indication		key-col		!	toggle current column as a key column
+supermeta	moa	キRo-4987655,Phase 1,MEK inhibitor,MAP2K1,NA,NA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	1	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	target	キRo-4987655,Phase 1,MEK inhibitor,MAP2K1,NA,NA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Target	1	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Drug	2	edit-cell	tyrphostin-1	e	edit contents of current cell
+Albert_compounds_April23_2021	moa	2	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Target	2	edit-cell	NA	e	edit contents of current cell
+supermeta	moa	キIKK-2-inhibitor-V,Phase 1,IKK inhibitor|NFkB pathway inhibitor,IKBKB,NA,NA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	3	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	target	キIKK-2-inhibitor-V,Phase 1,IKK inhibitor|NFkB pathway inhibitor,IKBKB,NA,NA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Target	3	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	note	0	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021		0	unselect-row		u	unselect current row
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	Drug	1	setcell-expr	2	z=	evaluate Python expression on current row and set current cell with result of Python expression
+Albert_compounds_April23_2021			repeat-last		z.	run most recent command with an empty, queried input
+Albert_compounds_April23_2021		2	unselect-row		u	unselect current row
+Albert_compounds_April23_2021		3	unselect-row		u	unselect current row
+Albert_compounds_April23_2021	Drug	1	edit-cell	2	e	edit contents of current cell
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Drug	2	edit-cell	2	e	edit contents of current cell
+
+
+
+
+
+
+
+
+
+
+
+Albert_compounds_April23_2021	Drug		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キRo-4987655,invalid literal for int() with base 10: '40.0'	edit-cell	3	i	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-currency		$	set type of current column to currency
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-currency		$	set type of current column to currency
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-int		#	set type of current column to int
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Drug		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		type-float		%	set type of current column to float
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キtyrphostin-1,30.0	edit-cell	20	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Drug		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	moa		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021			open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021[[0]]		0	open-row		^J	open sheet with copies of rows referenced in current row
+			splitwin-input	2	zZ	set split pane to specific size
+Albert_compounds_April23_2021			open-row		^J	open sheet with copies of rows referenced in current row
+		キTableSheet,addcol-sh	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021[[0]]	args	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021[[0]]	args	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-statuses		^P	open Status History
+status_history		4	open-row		^J	open sheet with copies of rows referenced in current row
+status_history[[4]]		0	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021[[0]]	args	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-file	Selleck-Bioactive_Compound_Library64.xlsx	o	open input in VisiData
+Selleck-Bioactive_Compound_Library64		キGeneral Information	open-row		^J	open sheet with copies of rows referenced in current row
+Selleck-Bioactive_Compound_Library64		キL2000-Bioactive-5487cpds1	open-row		^J	open sheet with copies of rows referenced in current row
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	M.w.		key-col		!	toggle current column as a key column
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	DMSO (mM)Max Solubility		key-col		!	toggle current column as a key column
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	DMSO (mM)Max Solubility		key-col		!	toggle current column as a key column
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	DMSO (mM)Max Solubility		type-float		%	set type of current column to float
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	DMSO (mM)Max Solubility		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	name		key-col		!	toggle current column as a key column
+Selleck-Bioactive_Compound_Library64_L2000-Bioactive-5487cpds1	DMSO (mM)Max Solubility		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Exist oral
+administration design		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	reference (PMID)		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	0	edit-cell	31562256	i	edit contents of current cell
+Albert_compounds_April23_2021	LD50	0	edit-cell	Not Avalible	i	edit contents of current cell
+Albert_compounds_April23_2021	LD50	0	edit-cell	NA	i	edit contents of current cell
+Albert_compounds_April23_2021	LD50		slide-left		H	slide current column left
+Albert_compounds_April23_2021	LD50		slide-left		H	slide current column left
+Albert_compounds_April23_2021	LD50		slide-left		H	slide current column left
+Albert_compounds_April23_2021	LD50		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Grade		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Grade		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Grade		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Grade		slide-right		L	slide current column right
+Albert_compounds_April23_2021	Summary of previous publication on mice		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Summary of previous publication on mice		slide-left		H	slide current column left
+Albert_compounds_April23_2021	Summary of previous publication on mice	0	edit-cell	LY2090314 (2.5 mg/kg i.p., days 1–3)[31562256].	i	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	0	edit-cell	LY2090314 (2.5 mg/kg i.p., days 1–3)[31562256];
+LY2090314 (Selleckchem, catalog S7063) was dissolved in DMSO at 100 mM at the concentration of 0.0512 mg/μl. Three days after glycerol injury, 25 mg/Kg of LY2090314 were resuspended in corn oil (5% LY2090314/95% corn oil) and administered interperitoneally for 3 consecutive days[32382110];	i	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	0	edit-cell	31562256, 32382110	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	0	edit-cell	LY2090314 (2.5 mg/kg i.p., days 1–3)[31562256];
+LY2090314 (Selleckchem, catalog S7063) was dissolved in DMSO at 100 mM at the concentration of 0.0512 mg/μl. Three days after glycerol injury, 25 mg/Kg of LY2090314 were resuspended in corn oil (5% LY2090314/95% corn oil) and administered interperitoneally for 3 consecutive days[32382110];
+ Mice were randomized into groups receiving either LY2090314 (25 mg/kg Q3D) or vehicle (20% Captisol/0.01N HCl) via i.v. administration [25915038];	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	0	edit-cell	31562256, 32382110, 25915038	i	edit contents of current cell
+Albert_compounds_April23_2021	Drug		key-col		!	toggle current column as a key column
+Albert_compounds_April23_2021		キ10-DEBC	add-row		a	append a blank row
+Albert_compounds_April23_2021	Drug	キ(None)	edit-cell	Encorafenib	e	edit contents of current cell
+Albert_compounds_April23_2021	moa	キEncorafenib	edit-cell	 Raf kinase B inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021	moa	キEncorafenib	edit-cell	Raf kinase B inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021	moa	キEncorafenib	edit-cell	Raf kinase B inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021	Target	キEncorafenib	edit-cell	BRAF	e	edit contents of current cell
+Albert_compounds_April23_2021		キEncorafenib	add-row		a	append a blank row
+Albert_compounds_April23_2021	Drug	キ(None)	edit-cell	Bisindolylmaleimide	e	edit contents of current cell
+Albert_compounds_April23_2021	Exist oral
+administration design	キLY-2090314	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キLY-2090314	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キLY-2090314	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キLY-2090314	edit-cell	25	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キLY-2090314	edit-cell	2.5	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キLY-2090314	edit-cell	LY2090314 (2.5 mg/kg i.p., days 1–3)[31562256];
+LY2090314 (Selleckchem, catalog S7063) was dissolved in DMSO at 100 mM at the concentration of 0.0512 mg/μl. Three days after glycerol injury, 25 mg/Kg of LY2090314 were resuspended in corn oil (5% LY2090314/95% corn oil) and administered interperitoneally for 3 consecutive days[32382110];
+ Mice were randomized into groups receiving either LY2090314 (25 mg/kg Q3D) or vehicle (20% Captisol/0.01N HCl) via i.v. administration [25915038];	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	reference (PMID)	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	LD50	キRo-4987655	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キRo-4987655	edit-cell	RO4987655 is an orally active and highly selective MEK inhibitor with an IC50 of 5.2 nM for inhibition of MEK1/MEK2.	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	Exist oral
+administration design	キRo-4987655	edit-cell	Y	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キRo-4987655	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キtyrphostin-1	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キtyrphostin-1	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	note	キtyrphostin-1	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	reference (PMID)	キtyrphostin-1	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	reference (PMID)	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	note	キIKK-2-inhibitor-V	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	note	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	reference (PMID)	キ10-DEBC	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Grade	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Grade	キEncorafenib	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Grade	キBisindolylmaleimide	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Exist oral
+administration design	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Exist oral
+administration design	キEncorafenib	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Exist oral
+administration design	キBisindolylmaleimide	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キRo-4987655	edit-cell	26839898	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キLY-2090314	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キLY-2090314	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キLY-2090314	delete-cell		zd	delete current cell (set to None)
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キRo-4987655	edit-cell	RO4987655 is an orally active and highly selective MEK inhibitor with an IC50 of 5.2 nM for inhibition of MEK1/MEK2. It has been shown to ameliorate insulin resistance in vivo.	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キRo-4987655	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	reference (PMID)	キRo-4987655	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Target	キRo-4987655	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021		キEncorafenib	slide-down		J	slide current row down
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キRo-4987655	edit-cell	8	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キRo-4987655	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];
+A single dose of 6 mg/kg RO4987655 was administered p.o. in cremaphor/methanol/water[28637716]; For therapy studies, 3 million cells were injected subcutaneously into right flanks, and mice (10/group) were dosed p.o. with 6 mg/kg RO4987655 or with vehicle for 12 (WM266.4) or 16 days (A375) [28637716].	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キRo-4987655	edit-cell	26839898, 28637716	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キRo-4987655	edit-cell	6	i	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		キtyrphostin-1	delete-row		d	delete current row
+Albert_compounds_April23_2021		キBisindolylmaleimide	delete-row		d	delete current row
+Albert_compounds_April23_2021		キEncorafenib	add-row		a	append a blank row
+Albert_compounds_April23_2021	Drug	キ(None)	edit-cell	Bruceantin	i	edit contents of current cell
+Albert_compounds_April23_2021		キBruceantin	add-row		a	append a blank row
+Albert_compounds_April23_2021		キ(None)	delete-row		d	delete current row
+Albert_compounds_April23_2021	Drug	キBruceantin	edit-cell	Digoxin	i	edit contents of current cell
+Albert_compounds_April23_2021		キDigoxin	add-row		a	append a blank row
+Albert_compounds_April23_2021	Drug	キ(None)	edit-cell	Bruceantin	e	edit contents of current cell
+Albert_compounds_April23_2021		キIKK-2-inhibitor-V	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キIKK-2-inhibitor-V	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キIKK-2-inhibitor-V	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キIKK-2-inhibitor-V	slide-down		J	slide current row down
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キLY-2090314	edit-cell	NA	i	edit contents of current cell
+Albert_compounds_April23_2021		キEncorafenib	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キEncorafenib	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キEncorafenib	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キEncorafenib	slide-down		J	slide current row down
+Albert_compounds_April23_2021		キDigoxin	delete-row		d	delete current row
+Albert_compounds_April23_2021	Target	キBruceantin	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+			open-file	/Users/A.Y/OneDrive - Harvard University/Projects/2020_Gladyshev_lab/1_Aging_signature_TWMR/CMap_result/supermeta.txt	o	open input in VisiData
+supermeta	pert_iname		key-col		!	toggle current column as a key column
+supermeta	moa		key-col		!	toggle current column as a key column
+supermeta	target		key-col		!	toggle current column as a key column
+supermeta	moa	キbruceantin,protein synthesis inhibitor,NA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	キBruceantin	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Target	キBruceantin	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キ10-DEBC	edit-cell	Diabetic mice (WT) were treated with 10-DEBC intraperitoneally administered at 1 mg/kg seven times a week for 4 months[31701691].	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キ10-DEBC	edit-cell	1	i	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キ10-DEBC	edit-cell	Diabetic mice (WT) were treated with 10-DEBC intraperitoneally administered at 1 mg/kg seven times a week for 4 months[31701691].
+10-DEBC with PP2 was injected i.p. at 1 mg/kg once a week for a total of four times[29978609]	e	edit contents of current cell
+Albert_compounds_April23_2021	Exist oral
+administration design	キ10-DEBC	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キ10-DEBC	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キ10-DEBC	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キ10-DEBC	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		キBruceantin	copy-row		y	yank (copy) current row to clipboard
+Albert_compounds_April23_2021	Drug	キBruceantin	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Summary of previous publication on mice	キBruceantin	edit-cell	Bruceantin (0–12 mg/kg, dissolved in 100% ethanol, sonicated, and diluted to a 5% ethanol solution with saline) was injected i.p. every 3 days [14871997];Brusatol and analogs (#14, #15, #26, #31) at 2 mg/kg body weight or PBS were injected intraperitoneally three times per week [32461675]; The mice were randomly split into two groups (control and BCT group, 8 mice per group) and treated orally once every two days with vehicle or BCT (2 mg/kg body weight) [33391515];	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キBruceantin	edit-cell	33391515	e	edit contents of current cell
+Albert_compounds_April23_2021	Exist oral
+administration design	キBruceantin	edit-cell	Y	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キ10-DEBC	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キBruceantin	edit-cell	Bruceantin (0–12 mg/kg, dissolved in 100% ethanol, sonicated, and diluted to a 5% ethanol solution with saline) was injected i.p. every 3 days [14871997];Brusatol and analogs (#14, #15, #26, #31) at 2 mg/kg body weight or PBS were injected intraperitoneally three times per week [32461675]; The mice were randomly split into two groups (control and BCT group, 8 mice per group) and treated orally once every two days with vehicle or BCT (2 mg/kg body weight) [33391515];	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キBruceantin	edit-cell	2	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キBruceantin	edit-cell	10	e	edit contents of current cell
+Albert_compounds_April23_2021	Drug	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Drug	キIKK-2-inhibitor-V	edit-cell	IKK-2-inhibitor-V (IMD-0354)	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キBruceantin	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	Grade	キBruceantin	edit-cell	R	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キIKK-2-inhibitor-V (IMD-0354)	edit-cell	IMD-0354 was suspended in saline and 5 mg/kg body weight IMD-0354 (suspended in 100 μL/mouse) was given to each mouse by i.p. injection once a day for 28 days after the implantation.	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キIKK-2-inhibitor-V (IMD-0354)	edit-cell	kIMD-0354 was suspended in saline and 5 mg/kg body weight IMD-0354 (suspended in 100 μL/mouse) was given to each mouse by i.p. injection once a day for 28 days after the implantation [].
+One group of diabetic mice was systemically administered with IMD-0354 (30 mg/kg) daily [25205865]	e	edit contents of current cell
+Albert_compounds_April23_2021		キIKK-2-inhibitor-V (IMD-0354)	delete-row		d	delete current row
+Albert_compounds_April23_2021		キ10-DEBC	delete-row		d	delete current row
+Albert_compounds_April23_2021		キLY-2090314	delete-row		d	delete current row
+Albert_compounds_April23_2021	Summary of previous publication on mice	キEncorafenib	edit-cell	Encorafenib was administered to mice at a dose of 10 mg/kg, using a volume of 10 ml/kg body weight. For oral administration, encorafenib stock solution was prepared in DMSO at a concentration of 100 mg/ml, the working solution was 1 mg/ml[29155017].	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キEncorafenib	edit-cell	29155017	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キEncorafenib	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021	reference (PMID)	キEncorafenib	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キEncorafenib	edit-cell	10	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キEncorafenib	edit-cell	1mg/ml	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)		setcol-incr		gi	set current column for selected rows to incremental values
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キEncorafenib	edit-cell	1 (mg/ml)	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		キEncorafenib	add-row		a	append a blank row
+Albert_compounds_April23_2021	Drug	キ(None)	edit-cell	triptolide	i	edit contents of current cell
+supermeta	moa	キtriptolide,RNA polymerase inhibitor,RELA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	moa	キtriptolide	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	target	キtriptolide,RNA polymerase inhibitor,RELA	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Target	キtriptolide	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021	Exist oral
+administration design	キtriptolide	edit-cell	Y	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キtriptolide	edit-cell	For triptolide dose-response experiments, wild-type mice were administered with a single oral dosage of 0.4 mg/kg, 0.6 mg/kg or 0.8 mg/kg body weight triptolide or 0.9 % saline [	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キtriptolide	edit-cell	0.83 mg/kg	e	edit contents of current cell
+Albert_compounds_April23_2021	LD50	キtriptolide	edit-cell	0.83 mg/kg	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キtriptolide	edit-cell	For triptolide dose-response experiments, wild-type mice were administered with a single oral dosage of 0.4 mg/kg, 0.6 mg/kg or 0.8 mg/kg body weight triptolide or 0.9 % saline [32835833];	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キtriptolide	edit-cell	32835833	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キtriptolide	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021	Summary of previous publication on mice	キtriptolide	edit-cell	For triptolide dose-response experiments, wild-type mice were administered with a single oral dosage of 0.4 mg/kg, 0.6 mg/kg or 0.8 mg/kg body weight triptolide or 0.9 % saline [32835833];
+The mice were divided into five groups randomly (n = 9) and were administered TP (0.2 mg/kg). The mice were administrated orally (p.o.) once every 2 days for seven times [32508161]	e	edit contents of current cell
+Albert_compounds_April23_2021		キtriptolide	add-row		a	append a blank row
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キtriptolide	edit-cell	32835833,32508161	e	edit contents of current cell
+Albert_compounds_April23_2021		キ(None)	delete-row		d	delete current row
+Albert_compounds_April23_2021	Summary of previous publication on mice	キtriptolide	edit-cell	For triptolide dose-response experiments, wild-type mice were administered with a single oral dosage of 0.4 mg/kg, 0.6 mg/kg or 0.8 mg/kg body weight triptolide or 0.9 % saline [32835833];
+The mice were divided into five groups randomly (n = 9) and were administered TP (0.2 mg/kg). The mice were administrated orally (p.o.) once every 2 days for seven times [32508161]	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	キtriptolide	edit-cell	0.2	e	edit contents of current cell
+Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	キtriptolide	edit-cell	1	e	edit contents of current cell
+Albert_compounds_April23_2021			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+Albert_compounds_April23_2021_columns		キreference (PMID)	delete-row		d	delete current row
+Albert_compounds_April23_2021_columns		キLD50	freq-row		^J	open a Frequency Table sheet grouped on column referenced in current row
+Albert_compounds_April23_2021	Drug	キBruceantin	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021	Drug	キEncorafenib	edit-cell	Encorafenib	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キEncorafenib	edit-cell	ncorafenib is a drug for the treatment of certain melanomas. It is a small molecule BRAF inhibitor that targets key enzymes in the MAPK signaling pathway. 	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キEncorafenib	edit-cell	E	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キEncorafenib	edit-cell	Encorafenib is a drug for the treatment of certain melanomas. It is a small molecule BRAF inhibitor that targets key enzymes in the MAPK signaling pathway. 	e	edit contents of current cell
+Albert_compounds_April23_2021	note	キBruceantin	edit-cell	Bruceantin was first isolated from Brucea antidysenterica, a tree used in Ethiopia for the treatment of cancer, and activity was observed against B16 melanoma, colon 38, and L1210 and P388 leukemia in mice. Phase I and II clinical trials were then initiated, but no objective tumor regressions were observed and clinical development was terminated. Recently, the activity of bruceantin has been studied with a number of leukemia, lymphoma, and myeloma cell lines. Cell differentiation was induced and c-MYC was down-regulated, suggesting a mechanistic correlation between c-MYC down-regulation and induction of cell differentiation or cell death. 	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	note	キtriptolide	edit-cell	Triptolide, the active component of Tripterygium wilfordii Hook F has been used to treat autoimmune and inflammatory conditions for over two hundred years in traditional Chinese medicine.	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	Grade	キtriptolide	edit-cell	P	e	edit contents of current cell
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キtriptolide	edit-cell	32835833, 32508161	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.json	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021	Oral supplementation reference (PMID)	キRo-4987655	edit-cell	26839898, 28637716	e	edit contents of current cell
+Albert_compounds_April23_2021	Summary of previous publication on mice	キRo-4987655	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];
+A single dose of 6 mg/kg RO4987655 was administered p.o. in cremaphor/methanol/water[28637716]; For therapy studies, 3 million cells were injected subcutaneously into right flanks, and mice (10/group) were dosed p.o. with 6 mg/kg RO4987655 or with vehicle for 12 (WM266.4) or 16 days (A375) [28637716].	e	edit contents of current cell
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.tsv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_April23_2021			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.xlsx	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_April23_2021			splitwin-swap		^I	jump to inactive pane
+dat3a906ab710ba		1	open-row		^J	open sheet with copies of rows referenced in current row
+dat3a906ab710ba			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+dat3a906ab710ba	Sepal.Length		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat3a906ab710ba		0	delete-row		d	delete current row
+dat3a906ab710ba	Sepal.Length		expand-col		(	expand current column of containers fully
+dat3a906ab710ba	Sepal.Length		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat3a906ab710ba		0	open-row		^J	open sheet with copies of rows referenced in current row
+dat3a9018ab5a12		0	open-row		^J	open sheet with copies of rows referenced in current row
+dat3a9018ab5a12	Sepal.Length		type-int		#	set type of current column to int
+dat3a9018ab5a12	Sepal.Length		type-string		~	set type of current column to str
+dat3a9018ab5a12	Sepal.Length	0	edit-cell	sds	e	edit contents of current cell
+dat3a9018ab5a12	Species	0	edit-cell	sdd	e	edit contents of current cell
+dat3a9018ab5a12	Sepal.Length	0	edit-cell	sdsdsd	e	edit contents of current cell
+dat3a9018ab5a12	Sepal.Length	0	edit-cell	sdsd	e	edit contents of current cell
+dat3a9018ab5a12		0	select-row		s	select current row
+dat3a9018ab5a12		1	delete-row		d	delete current row
+dat3a9018ab5a12			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+dat3a9018ab5a12	Species	1	edit-cell	sdsd	e	edit contents of current cell
+dat3a9018ab5a12	Petal.Width		type-float		%	set type of current column to float
+dat3a9018ab5a12	Petal.Width		type-float		%	set type of current column to float
+dat3a9018ab5a12	Species		type-float		%	set type of current column to float
+dat3a9018ab5a12	Petal.Width		type-float		%	set type of current column to float
+dat3a9018ab5a12	Petal.Width		type-float		%	set type of current column to float
+dat3a9018ab5a12	Petal.Width		type-string		~	set type of current column to str
+dat3a9018ab5a12	Petal.Width	1	edit-cell	sdsd	e	edit contents of current cell
+Albert_compounds_April23_2021		キAlbert_compounds_April23_2021	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021_Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021		キAlbert_compounds_April23_2021	open-row		^J	open sheet with copies of rows referenced in current row
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021_Albert_compounds_April23_2021.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+			open-new		A	open new blank sheet
+Albert_compounds_April23_2021_Albert_compounds_April23_2021		0	add-row		a	append a blank row
+Albert_compounds_April23_2021_Albert_compounds_April23_2021		1	slide-up		K	slide current row up
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	0	edit-cell	LY-2090314	e	edit contents of current cell
+			open-file	/Users/A.Y/OneDrive - Harvard University/Projects/2020_Gladyshev_lab/1_Aging_signature_TWMR/CMap_result/supermeta.txt	o	open input in VisiData
+supermeta			splitwin-swap		^I	jump to inactive pane
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	0	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note	0	edit-cell	LY2090314 is a potent inhibitor of glycogen synthase kinase-3 (GSK-3) with IC50 values of 1.5 nM and 0.9 nM for GSK-3α and GSK-3β, respectively.	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	moa	0	edit-cell	GSK-3 inhibito	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Target	0	edit-cell	GSK-3	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	moa	0	edit-cell	GSK-3 inhibitor	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	LD50	0	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Grade	0	edit-cell	P	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Exist oral
+administration design	0	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	0	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021		0	add-row		a	append a blank row
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	1	edit-cell	10-DEBC	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021		2	slide-up		K	slide current row up
+supermeta	moa	55789	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	moa	2	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	target	55789	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Target	2	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021_Albert_compounds_April23_2021		3	add-row		a	append a blank row
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	4	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	4	edit-cell	IKK2 Inhibitor V	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	4	copy-cell		zy	yank (copy) current cell to clipboard
+supermeta	pert_iname		key-col		!	toggle current column as a key column
+supermeta	pert_iname	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	4	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	moa	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	moa	4	paste-cell		zp	set contents of current cell to last clipboard value
+supermeta	target	キIKK-2-inhibitor-V	copy-cell		zy	yank (copy) current cell to clipboard
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Target	4	paste-cell		zp	set contents of current cell to last clipboard value
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	LD50	2	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	LD50	4	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Exist oral
+administration design	2	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Exist oral
+administration design	4	edit-cell	N	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	2	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	4	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	0	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	2	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			repeat-input		.	run previous command, along with any previous input to that command
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	4	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	0	edit-cell	CD1 nu/nu non-tumor bearing mice (Harlan, Indianapolis, IN) were injected i.v. with 5mg/kg LY2090314 [25915038];
+AsPC1 orthotopic tumor-bearing mice receive LY2090314 (2.5 mg/kg i.p., days 1–3) per week [31562256];
+25 mg/Kg of LY2090314 were resuspended in corn oil (5% LY2090314/95% corn oil) and administered interperitoneally for 3 consecutive days [32382110]	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	0	edit-cell	5	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Grade	2	edit-cell	R	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Grade	4	edit-cell	P	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note	2	edit-cell	Selective inhibitor of Akt/PKB. Inhibits IGF-1-stimulated phosphorylation and activation of Akt (complete inhibition at 2.5 μM), suppressing downstream activation of mTOR, p70 S6 kinase and S6 ribosomal protein.	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	2	edit-cell	Diabetic mice (WT) were treated with 10-[4′-(N,N-Diethylamino)butyl]-2-chlorophenoxazine hydrochloride (10-DEBC) (intraperitoneally administered at 1 mg/kg seven times a week; Sigma-Aldrich) for 4 months [31701691];	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	2	edit-cell	Diabetic mice (WT) were treated with 10-[4′-(N,N-Diethylamino)butyl]-2-chlorophenoxazine hydrochloride (10-DEBC) (intraperitoneally administered at 1 mg/kg seven times a week; Sigma-Aldrich) for 4 months [31701691];	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	2	edit-cell	1	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.xlsx	w	save current sheet to filename in format determined by extension (default .tsv)
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note	4	edit-cell	IMD-0354 (IKK2 Inhibitor V) is a selective IKKβ inhibitor which inhibits NF-κB activity. IMD0354 inhibits TNF-α induced NF-κB transcription activity with an IC50 of 1.2 uM.	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Grade	4	edit-cell	R	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note		type-string		~	set type of current column to str
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note		type-string		~	set type of current column to str
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	4	edit-cell	IMD-0354 was suspended in saline and 5 mg/kg body weight IMD-0354 (suspended in 100 μL/mouse) was given to each mouse by i.p. injection once a day for 28 days after the implantation [16397257];	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	0	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Drug	4	edit-cell	IMD-1041 (pro-drug for IKK-2-inhibitor-V)	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	note	4	edit-cell	IMD-0354 (IKK2 Inhibitor V) is a selective IKKβ inhibitor which inhibits NF-κB activity. IMD0354 inhibits TNF-α induced NF-κB transcription activity with an IC50 of 1.2 uM.
+IMD-0354 is available only in injection form; however, the prodrug, IMD-1041 can be administered orally.	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Exist oral
+administration design	4	edit-cell	Y	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	4	edit-cell	NA	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	4	edit-cell	Eight-week-old male Lewis rats (180–220 g) were orally treated with 100 mg/kg of IMD-1041 dissolved in 1 ml of 0.5% CMC vehicle (Sigma) immediately before use [23112571];	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	4	edit-cell	23112571	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	4	edit-cell	Eight-week-old male Lewis rats (180–220 g) were orally treated with 100 mg/kg of IMD-1041 dissolved in 1 ml of 0.5% CMC vehicle (Sigma) immediately before use [23112571];
+IMD-1041 (100 mg·kg(-1)·day(-1)) or vehicle was administered orally into mice once a day [23042949]	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	4	edit-cell	23112571, 23042949	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	4	edit-cell	Eight-week-old male Lewis rats (180–220 g) were orally treated with 100 mg/kg of IMD-1041 dissolved in 1 ml of 0.5% CMC vehicle (Sigma) immediately before use [23112571];
+IMD-1041 (100 mg·kg(-1)·day(-1)) or vehicle was administered orally into mice once a day [23042949]	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose per weight 
+(mg/kg)	4	edit-cell	100	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Dose in food 
+(mg/kg)	4	edit-cell	500	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Summary of previous publication on mice	1	edit-cell	High-concentration stock solutions of RO4987655 were made by dissolving the compound in ethanol. After dilution to 8 mg·50 mL−1 (RO4987655) with the same vehicle, it were added little by little to 1 kg of laboratory chow (CE-2 powder; CLEA Japan, Tokyo, Japan) and mixed using a food processor. The mixtures were then dried with a vacuum pump for at least overnight to remove the vehicle. In the RO4987655 experiment, each group received 0 mg in 1 kg CE-2 (), 2 mg in 1 kg CE-2 (), 4 mg in 1 kg CE-2 (), or 8 mg in 1 kg CE-2 ()[26839898];
+A single dose of 6 mg/kg RO4987655 was administered p.o. in cremaphor/methanol/water[28637716]; For therapy studies, 3 million cells were injected subcutaneously into right flanks, and mice (10/group) were dosed p.o. with 6 mg/kg RO4987655 or with vehicle for 12 (WM266.4) or 16 days (A375) [28637716].	e	edit contents of current cell
+Albert_compounds_April23_2021_Albert_compounds_April23_2021	Oral supplementation reference (PMID)	1	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+Albert_compounds_April23_2021_Albert_compounds_April23_2021			save-sheet	Albert_compounds_April23_2021.xlsx	w	save current sheet to filename in format determined by extension (default .tsv)

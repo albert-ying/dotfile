@@ -1,0 +1,360 @@
+sheet	col	row	longname	input	keystrokes	comment
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1		type-int		#	set type of current column to int
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1		type-currency		$	set type of current column to currency
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1		type-currency		$	set type of current column to currency
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1		type-currency		$	set type of current column to currency
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	rename-cols-selected		gz^	set names of all visible columns to combined contents of selected rows (or current row)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	delete-row		d	delete current row
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	rg		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	p		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait1		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait1		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	2.00		key-col		!	toggle current column as a key column
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Category		select-col-regex	aging	|	select rows matching regex in current column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Category		select-col-regex	aging	|	select rows matching regex in current column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			dup-selected		"	open duplicate sheet with only selected rows
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	PMID		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe	column		slide-left		H	slide current column left
+global_options_describe	column		slide-left		KEY_SLEFT	slide current column left
+global_options_describe	column		split-col	help	:	add new columns from regex split; number of columns determined by example row at cursor
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Category		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Category_freq		キaging	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Category_freq		キlipids	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Category_freq		キcognitive	open-row		^J	open sheet with copies of rows referenced in current row
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0071,0.9493,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0056,0.9439,4.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0085,0.9494,-1044.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0083,0.9559,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0089,0.9552,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0083,0.9595,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0148,0.961,could not convert string to float: '--'	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0043,0.9646,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0429,0.9635,-1003.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0066,0.9684,could not convert string to float: '--'	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0071,0.9702,-1061.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0101,0.9708,-1067.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0064,0.9725,-1025.0	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.005,0.974,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0034,0.9802,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0033,0.986,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0031,0.987,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0007,0.9885,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0007,0.9882,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0014,0.9872,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.001,0.9898,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0013,0.9928,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0004,0.993,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0007,0.991,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0006,0.9971,could not convert string to float: ''	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.0001,0.9995,could not convert string to float: '-'	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ(None),(None),currency(None)	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			unselect-rows		gu	unselect all rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.0034,0.9802,could not convert string to float: ''	unselect-row		u	unselect current row
+			open-vd		V	open VisiData menu: browse list of core sheets
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			sheets-stack		S	open Sheets Stack: join or jump between the active sheets on the current stack
+sheets		キglobal_options_describe	open-row		^J	open sheet referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			cmdlog-sheet		D	open current sheet's CommandLog with all other loose ends removed; includes commands from parent sheets
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe	column		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe	column		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe	column		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options	option		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Category		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+global_options	option		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options	option		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options	option		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_describe			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait1		setcol-incr		gi	set current column for selected rows to incremental values
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait1		setcol-incr		gi	set current column for selected rows to incremental values
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	p		setcol-incr		gi	set current column for selected rows to incremental values
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	2.00		setcol-incr		gi	set current column for selected rows to incremental values
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-all		gI	open Describe Sheet with description statistics for all visible columns from all sheets
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options_describe	column		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+			open-config		gO	open options.config as text sheet
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+	keystrokes	キBaseSheet,options-global	edit-cell		e	edit contents of current cell
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+global_options			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	3		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	3		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キCategory	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キCategory,PMID	rename-cols-selected		gz^	set names of all visible columns to combined contents of selected rows (or current row)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キCategory,PMID	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			save-sheet	41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キukbb,0	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	PMID		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	rg		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	note	キukbb,0.5322	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			freq-keys		gF	open Frequency Table grouped by all key columns on source sheet, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Category-rg_freq		キ(None),(None)	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	note		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait2		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	ethnicity		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	note		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	se		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	note		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+			open-vd		V	open VisiData menu: browse list of core sheets
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_note_freq	note		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			describe-sheet		I	open Describe Sheet with descriptive statistics for all visible columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			addcol-incr		i	add column with incremental values
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			delete-selected		gd	delete selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	A	0	delete-cell		zd	delete current cell (set to None)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		1	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		1	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_columns		キA	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	1	4	edit-cell	Age started oral contraceptive pill	e	edit contents of current cell
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	rename-cols-selected		gz^	set names of all visible columns to combined contents of selected rows (or current row)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	ethnicity		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	rename-cols-selected		gz^	set names of all visible columns to combined contents of selected rows (or current row)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	p		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		8	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			select-expr	<0.05	z|	select rows matching Python expression in any visible column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			select-expr	p < 0.05	z|	select rows matching Python expression in any visible column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			dup-selected		"	open duplicate sheet with only selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	Category		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_Category_freq		キ(None)	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_Category_freq		キpsychiatric	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	Category		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_Category_freq		キpsychiatric	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_Category_freq		キukbb	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_ukbb	trait2		select-col-regex	Age*	|	select rows matching regex in current column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_ukbb			dup-selected		"	open duplicate sheet with only selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_ukbb_selectedref	rg		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_ukbb_selectedref	rg		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_Category_freq		キ(None)	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			select-expr	not Category	z|	select rows matching Python expression in any visible column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			delete-selected		gd	delete selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref		152	unselect-row		u	unselect current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			select-expr	not rg	z|	select rows matching Python expression in any visible column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			dup-selected		"	open duplicate sheet with only selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	rg		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	trait1		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	trait2		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	Category		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	rg		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref_selectedref	p		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			delete-selected		gd	delete selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	rg		pivot		W	open Pivot Table: group rows by key column and summarize current column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	rg		pivot		W	open Pivot Table: group rows by key column and summarize current column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			save-sheet	41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref			save-sheet	41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref.csv	w	save current sheet to filename in format determined by extension (default .tsv)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	rg		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	rg		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	z		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	z		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	z		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref		11	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	Category		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	rename-cols-selected		gz^	set names of all visible columns to combined contents of selected rows (or current row)
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		0	delete-row		d	delete current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	trait1		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	rg		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Category		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	h2_obs		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	rg		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	h2_obs		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	10		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	10		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	0.09 0.12	0.32 0.38	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	0.09 0.12	0.43 0.49	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	0		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	0.73 0.77	9.55 9.77	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	9		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	7		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	7		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	7		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	7		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+			open-vd		V	open VisiData menu: browse list of core sheets
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.7451	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.5761	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.6899	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.681	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.3738	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+			open-vd		V	open VisiData menu: browse list of core sheets
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ-0.3738	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.6235	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.7101	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.4543	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results		キ0.4186	select-row		s	select current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	12		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	12		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			dup-selected		"	open duplicate sheet with only selected rows
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	12		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	4		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	12		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	12		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	8		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_selectedref	12		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	6		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	0		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		type-float		%	set type of current column to float
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	4		key-col		!	toggle current column as a key column
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	8		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	0.73 0.75	9.55 10.03	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	0.14 0.15	2.22 2.71	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_graph	-0.16 -0.14	-0.22 0.26	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+41467_2020_19742_MOESM9_ESM			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+41467_2020_19742_MOESM9_ESM			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+41467_2020_19742_MOESM9_ESM		キST6. SM LDSC results	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
+41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis_freq		キsm	open-row		^J	open sheet with copies of rows referenced in current row
