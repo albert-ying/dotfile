@@ -72,7 +72,6 @@ if exists('g:vscode')
       call VSCodeNotifyRangePos("r.runSelection", startPos[1], endPos[1], startPos[2], endPos[2], 1)
     endif
   endfunction
-  xnoremap <silent> <D-CR> :<C-u>call <SID>RunSelectedRCode()<CR>
   function! s:RunSelectedPyCode()
     normal! gv
     let visualmode = visualmode()
@@ -91,6 +90,17 @@ if exists('g:vscode')
   omap gc  <Plug>VSCodeCommentary
   nmap gcc <Plug>VSCodeCommentaryLine
   xnoremap <silent> <D-CR> :<C-u>call <SID>RunSelectedPyCode()<CR>
+
+  augroup filetypedetect
+
+    " R
+    autocmd! BufNewFile,BufRead *.[rRsS] setfiletype r
+    autocmd! BufNewFile,BufRead *.[rR]history setfiletype r
+
+  augroup END
+
+  au FileType r xnoremap <silent> <D-CR> :<C-u>call <SID>RunSelectedRCode()<CR>
+
   function! s:split(...) abort
     let direction = a:1
     let file = a:2
@@ -198,18 +208,19 @@ else
   Plug 'https://github.com/easymotion/vim-easymotion', {'dir': g:plug_home.'/vim-easymotion-original'}
   Plug 'lyokha/vim-xkbswitch'
   Plug 'tpope/vim-abolish'
-  "Plug 'NLKNguyen/papercolor-theme'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-repeat'
   Plug 'haya14busa/incsearch.vim'
   Plug 'tpope/vim-surround'
-  Plug 'ayu-theme/ayu-vim' " or other package manager
+  " Plug 'ayu-theme/ayu-vim' " or other package manager
+  Plug 'dylanaraps/wal.vim'
   Plug 'junegunn/goyo.vim'
   Plug 'tpope/vim-commentary'
   Plug 'unblevable/quick-scope'
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
   call plug#end()
+  colorscheme wal
   nnoremap <leader>ff <cmd>Telescope find_files<cr>
   nnoremap <leader>fg <cmd>Telescope live_grep<cr>
   nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -221,9 +232,6 @@ else
   set number relativenumber
   set nu rnu
   set t_Co=256   " This is may or may not needed.
-  set termguicolors     " enable true colors support
-  let ayucolor="mirage"   " for dark version of theme
-  colorscheme ayu
   inoremap <expr> <Tab> pumvisible() ? "\<C-y>" : "\<Tab>"
 
   " coc#refresh
@@ -238,13 +246,10 @@ else
     return !col || getline('.')[col - 1]  =~# '\s'
   endfunction
   if exists('g:started_by_firenvim')
-    let g:goyo_width=80
-    :Goyo | set bg=light
-    map ZZ :Goyo\|x!<CR>
-    map ZQ :Goyo\|q!<CR>
+    colorscheme wal
     set spell spelllang=en,cjk
-    set guifont=Operator\ Mono\ Lig:h24
-    set ft=markdown
+    " set guifont=Operator\ Mono\ Lig:h24
+    " set ft=markdown
     inoremap <D-v> <c-r>+
     let g:firenvim_config = { 
           \ 'globalSettings': {

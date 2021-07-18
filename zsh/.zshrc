@@ -1,4 +1,13 @@
-source $ZSH/oh-my-zsh.sh
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+export PYTHONPATH=~/zoteroutils:${PYTHONPATH}
+(cat ~/.cache/wal/sequences &)
+#source ~/.oh-my-zsh/oh-my-zsh.sh
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
 # if the init script doesn't exist
@@ -19,8 +28,9 @@ if ! zgen saved; then
 fi
 
 alias rr="radian"
-alias n="~/nvim-osx64/bin/nvim"
-alias nvim="~/nvim-osx64/bin/nvim"
+alias n="nvim"
+alias vim="nvim"
+# alias nvim="~/nvim-osx64/bin/nvim"
 alias o2="sshpass -p 'D777ho220**0' ssh ky126@o2.hms.harvard.edu"
 alias bigblack="sshpass -p 123456 ssh kejun@222.200.186.63"
 alias o2scp="sshpass -p 'D777ho220**0' scp"
@@ -30,12 +40,12 @@ alias ag="ssh -Y -l kying -p 2023 -o UserKnownHostsFile=/dev/null -o StrictHostK
 alias ls='exa'
 alias z='zathura --fork'
 alias fasdown="scp -r kying@login.rc.fas.harvard.edu:/n/home00/kying/outbox/ ./"
-export EDITOR="/Users/A.Y/nvim-osx64/bin/nvim"
+export EDITOR="${HOME}/nvim-osx64/bin/nvim"
 #export DISPLAY=localhost:11.0
 
 # plugins=(git zsh-autosuggestions autojump zsh-syntax-highlighting)
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/A.Y/.oh-my-zsh"
@@ -48,6 +58,10 @@ cpfile() {
         -e end \
         "$@"
 }
+wl_export() {
+  export WALLPAPER=$(osascript -e 'tell app "finder" to get posix path of (get desktop picture as alias)')
+}
+alias wl='wl_export; wal -i "$WALLPAPER" -n -o "$HOME/.wal_script.sh"'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

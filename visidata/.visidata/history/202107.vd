@@ -358,3 +358,87 @@ global_options			describe-sheet		I	open Describe Sheet with descriptive statisti
 41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results			columns-sheet		C	open Columns Sheet: edit column properties for current sheet
 41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results	Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis		freq-col		F	open Frequency Table grouped on current column, with aggregations of other columns
 41467_2020_19742_MOESM9_ESM_ST6. SM LDSC results_Supplementary Table 6. Results of the LD Score regression (LDSC) analysis for sporadic miscarriage EUR ancestry GWAS meta-analysis_freq		キsm	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM7_ESM		キED Fig. 1e	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 1	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 2	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 3	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キTable legends	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 1	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM_Suppl. Table 1	locus	25	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+41586_2018_751_MOESM3_ESM		キTable legends	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 2	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 3	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 1	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM_Suppl. Table 1	StellaHet-MII		type-float		%	set type of current column to float
+41586_2018_751_MOESM3_ESM_Suppl. Table 1	StellaHet-MII		key-col		!	toggle current column as a key column
+41586_2018_751_MOESM3_ESM_Suppl. Table 1	StellaHet-2C		type-float		%	set type of current column to float
+41586_2018_751_MOESM3_ESM_Suppl. Table 1	StellaHet-2C		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+41586_2018_751_MOESM3_ESM		キTable legends	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM_Table legends	Supplementary Table Legends	3	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+41586_2018_751_MOESM3_ESM_Table legends		3	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM_Table legends[[3]]		0	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 2	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 1	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 3	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM		キSuppl. Table 2	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2018_751_MOESM3_ESM_Suppl. Table 2	RRBS Sample	27	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+dat1866a7f55c894	p.adj.signif		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat1866a7f55c894	p.adj.signif		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+dat1866a7f55c894	p.adj.signif		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat1866a7f55c894	p.adj.signif		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+dat1866a7f55c894	p.adj.signif		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat1866a7f55c894	p.adj.signif		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+dat1866a7f55c894	p.adj.signif		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+dat1866a7f55c894	p.adj.signif		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+dat1866a7f55c894	p.adj.signif		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19279_MOESM5_ESM		キData generated in this study	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM5_ESM_Data generated in this study	3	16	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+41467_2020_19279_MOESM5_ESM_Data generated in this study	Datasets generated in this study have been deposited in GEO under the accession number GSE141877		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+41467_2020_19279_MOESM5_ESM_Data generated in this study	Datasets generated in this study have been deposited in GEO under the accession number GSE141877		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19279_MOESM5_ESM_Data generated in this study	Datasets generated in this study have been deposited in GEO under the accession number GSE141877		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19279_MOESM5_ESM_Data generated in this study	2		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+41467_2020_19279_MOESM11_ESM		キFig. 1a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1c	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM_Fig. 1d	DNAme (%)		slide-left		H	slide current column left
+41467_2020_19279_MOESM11_ESM_Fig. 1d	DNAme (%)		slide-right		L	slide current column right
+41467_2020_19279_MOESM11_ESM		キFig. 1e	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1f	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 1g	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 2a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 2c-d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 3b-d & Sup. Fig. 5a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 3b-d & Sup. Fig. 5a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 4b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 4c	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 5b & Sup. Fig. 8a-b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キFig. 5c & Sup. Fig. 8c-d & 9a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 1a-c	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 1d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 1d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 2a-b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 2c-d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 2e	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 3a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 3b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 3a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 3b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 3c-d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 4a-b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 4c	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 4d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 6a	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 8 a-d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM_Sup. Fig. 8 a-d		0	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 7c-d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 7b	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 6d	open-row		^J	open sheet with copies of rows referenced in current row
+41467_2020_19279_MOESM11_ESM		キSup. Fig. 6c	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2012_BFnature10960_MOESM291_ESM		キsuppTable4_pDMR.txt	open-row		^J	open sheet with copies of rows referenced in current row
+41586_2012_BFnature10960_MOESM291_ESM		キsuppTable4_pDMR.txt	open-row		^J	open sheet with copies of rows referenced in current row
+visidata_menu		2	open-row		^J	open sheet with copies of rows referenced in current row
+sheets_all			open-row		^J	open sheet referenced in current row
+visidata_menu			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+visidata_menu			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
