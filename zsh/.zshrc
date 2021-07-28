@@ -40,7 +40,8 @@ alias ag="ssh -Y -l kying -p 2023 -o UserKnownHostsFile=/dev/null -o StrictHostK
 alias ls='exa'
 alias z='zathura --fork'
 alias fasdown="scp -r kying@login.rc.fas.harvard.edu:/n/home00/kying/outbox/ ./"
-export EDITOR="${HOME}/nvim-osx64/bin/nvim"
+alias python3="/Users/A.Y/miniconda3/bin/python3"
+export EDITOR="/usr/local/bin/nvim"
 #export DISPLAY=localhost:11.0
 
 # plugins=(git zsh-autosuggestions autojump zsh-syntax-highlighting)
@@ -62,6 +63,11 @@ wl_export() {
   export WALLPAPER=$(osascript -e 'tell app "finder" to get posix path of (get desktop picture as alias)')
 }
 alias wl='wl_export; wal -i "$WALLPAPER" -n -o "$HOME/.wal_script.sh"'
+alias lw='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper --recursive -q; wl'
+alias www='python3 /Users/A.Y/Wallhaven-dl/wallhaven-dl.py; ww'
+alias ww='wal -i /Users/A.Y/Wallhaven -q; wl'
+alias rw='python /Users/A.Y/pywal-reddit/pywal-reddit.py'
+alias sw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

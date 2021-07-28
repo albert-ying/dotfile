@@ -442,3 +442,32 @@ visidata_menu		2	open-row		^J	open sheet with copies of rows referenced in curre
 sheets_all			open-row		^J	open sheet referenced in current row
 visidata_menu			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
 visidata_menu			splitwin-half		Z	ensure split pane is set and push under sheet onto other pane
+Hannum_clock_71_CpGs	﻿Marker		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+Hannum_clock_71_CpGs	﻿Marker		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+Hannum’s clock — 71 CpGs		キModel_PrimaryData	open-row		^J	open sheet with copies of rows referenced in current row
+Hannum’s clock — 71 CpGs_Model_PrimaryData	Marker		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+Hannum’s clock — 71 CpGs_Model_PrimaryData	Marker		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+Hannum’s clock — 71 CpGs		キModel_AllData	open-row		^J	open sheet with copies of rows referenced in current row
+Hannum’s clock — 71 CpGs_Model_AllData	Marker		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+Hannum’s clock — 71 CpGs_Model_AllData	Marker		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+Hannum’s clock — 71 CpGs_Model_AllData	Marker		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+Hannum’s clock — 71 CpGs_Model_AllData	Marker		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+NIHMS418935-supplement-05		キsuppTable7	open-row		^J	open sheet with copies of rows referenced in current row
+NIHMS418935-supplement-04		キsuppTable6	open-row		^J	open sheet with copies of rows referenced in current row
+NIHMS418935-supplement-03		キModel_Breast	open-row		^J	open sheet with copies of rows referenced in current row
+NIHMS418935-supplement-02		キModel_PrimaryData	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc2		キeGene summary	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc2		キGWAS enrichments	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments	phenotype	10	release-mouse		BUTTON1_RELEASED	slide current row/column to mouse cursor release position
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments	number_markers		key-col		!	toggle current column as a key column
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments	number_markers		type-int		#	set type of current column to int
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments	number_independent		type-int		#	set type of current column to int
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments	number_independent		plot-column		g.	plot current numeric column vs key columns; numeric key column is used for x-axis, while categorical key columns determine color
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments_graph	156520 160066	265 288	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments_graph	184887 188433	1636 1658	dive-cursor		^J	open sheet of source rows contained within canvas cursor
+1-s2.0-S1934590917300802-mmc2_GWAS enrichments		キ188237	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc3		キleads01	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc3		キall01	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc3		キleads02	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc3		キall02	open-row		^J	open sheet with copies of rows referenced in current row
+1-s2.0-S1934590917300802-mmc3		キleads03	open-row		^J	open sheet with copies of rows referenced in current row

@@ -3,7 +3,7 @@ filetype plugin on
 syntax on
 set clipboard+=unnamedplus
 set undofile
-set nojoinspaces
+" set nojoinspaces
 let g:EasyMotion_verbose = 0
 "g Leader key
 let mapleader=" "
@@ -14,6 +14,7 @@ noremap <leader>H H
 noremap <leader>L L
 noremap <leader>n nzz
 noremap <leader>N Nzz
+nnoremap gp `[v`]
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -52,10 +53,7 @@ if exists('g:vscode')
     if visualmode == "V"
       let startLine = line("v")
       let endLine = line(".")
-      call VSCodeNotifyRange("workbench.action.showCommands", startLine, endLine, 1)
-    else
-      let startPos = getpos("v")
-      let endPos = getpos(".")
+      call VSCodeNotifyRange("workbench.action.showCommands", startLine, endLine, 1) else let startPos = getpos("v") let endPos = getpos(".")
       call VSCodeNotifyRangePos("workbench.action.showCommands", startPos[1], endPos[1], startPos[2], endPos[2], 1)
     endif
   endfunction
@@ -187,6 +185,7 @@ if exists('g:vscode')
   xnoremap <silent> <C-l> :call VSCodeNotify('workbench.action.navigateRight')<CR>
 
   nnoremap gr <Cmd>call VSCodeNotify('editor.action.goToReferences')<CR>
+  nnoremap gx <Cmd>call VSCodeNotify('editor.action.openLink')<CR>
 
   " Bind C-/ to vscode commentary since calling from vscode produces double comments due to multiple cursors
   xnoremap <expr> <C-/> <SID>vscodeCommentary()
@@ -195,7 +194,7 @@ if exists('g:vscode')
   nnoremap <silent> <C-w>_ :<C-u>call VSCodeNotify('workbench.action.toggleEditorWidths')<CR>
 
   nnoremap <silent> , :call VSCodeNotify('whichkey.show')<CR>
-  xnoremap <silent> <Space> :<C-u>call <SID>openWhichKeyInVisualMode()<CR>
+  xnoremap <silent> , :<C-u>call <SID>openWhichKeyInVisualMode()<CR>
 
   xnoremap <silent> <C-P> :<C-u>call <SID>openVSCodeCommandsInVisualMode()<CR>
 
@@ -213,14 +212,22 @@ else
   Plug 'haya14busa/incsearch.vim'
   Plug 'tpope/vim-surround'
   " Plug 'ayu-theme/ayu-vim' " or other package manager
+  Plug 'typkrft/wal.vim', {'dir': g:plug_home.'/gupywal', 'as': 'pywal_gui'}
   Plug 'dylanaraps/wal.vim'
   Plug 'junegunn/goyo.vim'
+  Plug 'itchyny/calendar.vim'
   Plug 'tpope/vim-commentary'
+  Plug 'kristijanhusak/orgmode.nvim'
   Plug 'unblevable/quick-scope'
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
   call plug#end()
   colorscheme wal
+  " Calendar
+  source ~/.cache/calendar.vim/credentials.vim
+  let g:calendar_google_calendar = 1
+  let g:calendar_google_task = 1
+  nmap <silent> gx :!open <cWORD><cr>
   nnoremap <leader>ff <cmd>Telescope find_files<cr>
   nnoremap <leader>fg <cmd>Telescope live_grep<cr>
   nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -245,11 +252,20 @@ else
     let col = col('.') - 1
     return !col || getline('.')[col - 1]  =~# '\s'
   endfunction
+  if exists('g:neovide')
+    set termguicolors
+    colorscheme gupywal
+    " let g:neovide_cursor_animation_length=0.12
+    let g:neovide_cursor_trail_length=5
+    let g:neovide_cursor_vfx_mode = "pixiedust"
+    let g:neovide_cursor_vfx_particle_lifetime=4
+  endif
   if exists('g:started_by_firenvim')
-    colorscheme wal
     set spell spelllang=en,cjk
-    " set guifont=Operator\ Mono\ Lig:h24
-    " set ft=markdown
+    set guifont=Operator\ Mono\ Lig:h18
+    set ft=markdown
+    set termguicolors
+    colorscheme gupywal
     inoremap <D-v> <c-r>+
     let g:firenvim_config = { 
           \ 'globalSettings': {
@@ -271,6 +287,20 @@ let g:camelcasemotion_key = "<leader>"
 let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
 highlight QuickScopePrimary guifg='#afff5f' gui=underline ctermfg=155 cterm=underline
 highlight QuickScopeSecondary guifg='#5fffff' gui=underline ctermfg=81 cterm=underline
+
+" bind comment to <C-/>
+" nmap <C-/> gcc
+" vmap <C-/> gc
+" greatest remap ever
+vnoremap <leader>p "_dP
+
+" next greatest remap ever : asbjornHaland
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y gg"+yG
+
+nnoremap <leader>d "_d
+vnoremap <leader>d "_dmap
 map <Leader><Leader> <Plug>(easymotion-prefix)
 map /  <Plug>(incsearch-forward)
 map ?  <Plug>(incsearch-backward)
@@ -340,32 +370,32 @@ function! Prose()
     else
       noremap j gj
       noremap k gk
+      hi! link FoldColumn Normal
+      setlocal linebreak nonumber norelativenumber t_Co=0 foldcolumn=2
     endif
     noremap H g^
     noremap L g$
     noremap A g$a
     noremap I g0i
-    setlocal linebreak nonumber norelativenumber t_Co=0 foldcolumn=2
-    hi! link FoldColumn Normal
 endfunction
 
 function! ProseOff()
     echo "Prose: Off"
     let g:ProseOn=0
-
     noremap j j
     noremap k k
     noremap H ^
     noremap L $
     noremap A A
     noremap I I
-    setlocal nolinebreak number relativenumber t_Co=256 foldcolumn=0
-
+    if !exists('g:vscode')
+      setlocal nolinebreak number relativenumber t_Co=256 foldcolumn=0
+    endif
 endfunction
 " end prose ===================
 "
 nm <leader><leader>d :call ToggleDeadKeys()<CR>
-imap <leader><leader>d <esc>:call ToggleDeadKeys()<CR>a
+" imap <leader><leader>d <esc>:call ToggleDeadKeys()<CR>a
 nm <leader><leader>i :call ToggleIPA()<CR>
-imap <leader><leader>i <esc>:call ToggleIPA()<CR>a
+" imap <leader><leader>i <esc>:call ToggleIPA()<CR>a
 nm <leader><leader>p :call ToggleProse()<CR>
