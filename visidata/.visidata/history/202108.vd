@@ -1,0 +1,14 @@
+sheet	col	row	longname	input	keystrokes	comment
+mouse-marker-excel-file		キSupplTbl1	open-row		^J	open sheet with copies of rows referenced in current row
+mouse-marker-excel-file_SupplTbl1	Previous_Position1		slide-rightmost		gL	slide current column all the way to the right of sheet
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+mouse-marker-excel-file_SupplTbl1	RS_ID		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+MOUSEDIVm520650.na35.annot	please see the bundled README file.		sort-asc		[	sort ascending by current column; replace any existing sort criteria
+MOUSEDIVm520650.na35.annot	please see the bundled README file.		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+MOUSEDIVm520650.na35.annot	please see the bundled README file.		sort-desc		]	sort descending by current column; replace any existing sort criteria 
+MOUSEDIVm520650.na35.annot	please see the bundled README file.		sort-asc		[	sort ascending by current column; replace any existing sort criteria

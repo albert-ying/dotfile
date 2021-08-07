@@ -20,7 +20,7 @@ options(radian.editing_mode = "vi")
 options(radian.show_vi_mode_prompt = TRUE)
 options(radian.vi_mode_prompt = "\033[0;34m[{}]\033[0m ")
 options(radian.escape_key_map = list(
-  list(key = "m", value = " %>% ")
+  list(key = "m", value = " |> ")
 ))
 
 #library(tidyverse)
@@ -30,22 +30,66 @@ library(ggsci)
 library(ggtext)
 library(utils)
 library(tidylog)
+library(ggthemes)
 
 ## change global theme settings (for all following plots)
-
 theme_set(
-	theme_ipsum(plot_title_size = 28, subtitle_size = 22, base_size = 18, axis_title_size = 24, strip_text_size = 22, base_family = "Helvetica", axis_title_just = "mc") +
-	  theme(
-	    plot.title.position = "plot", plot.caption.position = "plot", legend.position = "right", plot.margin = margin(25, 25, 10, 25),
-	    axis.ticks = element_line(color = "grey92"),
-	    axis.ticks.length = unit(.5, "lines"),
-	    panel.grid.minor = element_blank(),
-	    legend.text = element_text(color = "grey30"),
-	    plot.subtitle = element_text(color = "grey30"),
-	    plot.caption = element_text(margin = margin(t = 15))
-	  ) +
-	theme(plot.title = element_markdown(), plot.subtitle = element_markdown(), plot.caption = element_markdown(margin = margin(t = 15)), axis.title.x = element_markdown(), axis.title.y = element_markdown())
+  theme_ipsum(plot_title_size = 28, subtitle_size = 22, base_size = 18, axis_title_size = 24, strip_text_size = 22, base_family = "Helvetica", axis_title_just = "mc") +
+  ggthemes::theme_tufte(base_size = 18, base_family = "Helvetica") +
+    theme(
+      # plot.title.size = 28, subtitle.size = 22, axis.title.size = 24, strip.text.size = 22, axis.title.just = "mc",
+      plot.title.position = "plot", plot.caption.position = "plot", legend.position = "right", plot.margin = margin(25, 25, 10, 25),
+      # axis.ticks = element_line(color = "grey92"),
+      axis.ticks = element_line(size = .25, color = "black"),
+      axis.ticks.length = unit(.6, "lines"),
+      panel.grid.minor = element_blank(),
+      panel.grid.major = element_blank(),
+      legend.text = element_text(color = "grey30"),
+      plot.subtitle = element_text(color = "grey30"),
+      plot.caption = element_text(margin = margin(t = 15))
+    ) +
+  theme(plot.title = element_markdown(), plot.subtitle = element_markdown(), plot.caption = element_markdown(margin = margin(t = 15)), axis.title.x = element_markdown(), axis.title.y = element_markdown())
 )
+
+# Mimic Base R break
+base_breaks <- function(x, y, scale_x = T, scale_y = T) {
+  if (scale_x) {
+    b1 = pretty(x)
+    sx = scale_x_continuous(breaks=b1)
+  } else {
+    b1 = as.factor(x) |> as.numeric()
+    sx = NULL
+  }
+  if (scale_y) {
+    b2 = pretty(y)
+    sy = scale_y_continuous(breaks=b2)
+  } else {
+    b2 = as.factor(y) |> as.numeric()
+    sy = NULL
+  }
+  d = data.frame(x=c(min(b1), max(b1)), y=c(min(b2), max(b2)))
+  list(
+    sx, sy, geom_rangeframe(data = d, aes(x=x, y=y), inherit.aes = FALSE)
+  )
+}
+base_mode = function(p, i = 1) {
+  px = p + geom_point()
+  p_tb = ggplot_build(px)$data[[length(ggplot_build(px)$data)]] |> as_tibble()
+  if (class(p_tb$x)[1] != "mapped_discrete" & class(p_tb$y)[1] != "mapped_discrete") {
+    print("Both numeric")
+    np = p + base_breaks(p_tb$x, p_tb$y)
+  } else if (class(p_tb$x)[1] != "mapped_discrete") {
+    print("x numeric")
+    np = p + base_breaks(p_tb$x, p_tb$y |> round(), scale_y = F)
+  } else if (class(p_tb$y)[1] != "mapped_discrete") {
+    print("y numeric")
+    np = p + base_breaks(p_tb$x |> round(), p_tb$y, scale_x = F)
+  } else {
+    print("no numeric")
+    np = p + geom_rangeframe()
+  }
+  return(np)
+}
 
 better_color_legend = guides(color = guide_colorbar(title.position = 'top', title.hjust = .5, barwidth = unit(20, 'lines'), barheight = unit(.5, 'lines')))
 better_fill_legend = guides(fill = guide_colorbar(title.position = 'top', title.hjust = .5, barwidth = unit(20, 'lines'), barheight = unit(.5, 'lines')))

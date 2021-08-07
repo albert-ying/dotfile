@@ -6,6 +6,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export PYTHONPATH=~/zoteroutils:${PYTHONPATH}
+export NEOVIDE_FRAMELESS=1
+export NeovideMultiGrid=1
 (cat ~/.cache/wal/sequences &)
 #source ~/.oh-my-zsh/oh-my-zsh.sh
 # load zgen
@@ -59,15 +61,18 @@ cpfile() {
         -e end \
         "$@"
 }
+### Wall script
 wl_export() {
   export WALLPAPER=$(osascript -e 'tell app "finder" to get posix path of (get desktop picture as alias)')
 }
 alias wl='wl_export; wal -i "$WALLPAPER" -n -o "$HOME/.wal_script.sh"'
-alias lw='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper --recursive -q; wl'
+alias lw='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper -q; wl'
 alias www='python3 /Users/A.Y/Wallhaven-dl/wallhaven-dl.py; ww'
 alias ww='wal -i /Users/A.Y/Wallhaven -q; wl'
-alias rw='python /Users/A.Y/pywal-reddit/pywal-reddit.py'
+alias rw='python3 /Users/A.Y/pywal-reddit/pywal-reddit.py'
 alias sw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/'
+alias fw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/favorite'
+alias fwl='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/favorite -q; wl'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME

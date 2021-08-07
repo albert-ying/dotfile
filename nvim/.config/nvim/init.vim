@@ -10,11 +10,28 @@ let mapleader=" "
 noremap \ ,
 noremap H ^
 noremap L $
+noremap Y y$
 noremap <leader>H H
 noremap <leader>L L
 noremap <leader>n nzz
 noremap <leader>N Nzz
+noremap J mzJ`z
+nnoremap <leader>o mzo<Esc>`z
+nnoremap <leader>O mzO<Esc>`z
+
+" input breakpoint
+inoremap , ,<c-g>u
+inoremap . .<c-g>u
+inoremap ! !<c-g>u
+inoremap ? ?<c-g>u
+
+" moving text
+nnoremap <leader>j :m .+1<CR>==
+nnoremap <leader>k :m .-2<CR>==
+vnoremap <leader>j :m '>+1<CR>gv=gv
+vnoremap <leader>k :m '>-2<CR>gv=gv
 nnoremap gp `[v`]
+
 set tabstop=2
 set shiftwidth=2
 set expandtab
@@ -38,7 +55,7 @@ if exists('g:vscode')
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
   call plug#end()
-  set textwidth=145
+  " set textwidth=145
   let g:XkbSwitchEnabled = 1
   " Simulate same TAB behavior in VSCode
   nmap <Tab> :Tabnext<CR>
@@ -213,7 +230,7 @@ else
   Plug 'tpope/vim-surround'
   " Plug 'ayu-theme/ayu-vim' " or other package manager
   Plug 'typkrft/wal.vim', {'dir': g:plug_home.'/gupywal', 'as': 'pywal_gui'}
-  Plug 'dylanaraps/wal.vim'
+  " Plug 'dylanaraps/wal.vim'
   Plug 'junegunn/goyo.vim'
   Plug 'itchyny/calendar.vim'
   Plug 'tpope/vim-commentary'
@@ -222,20 +239,22 @@ else
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
   call plug#end()
-  colorscheme wal
+  colorscheme gupywal
   " Calendar
   source ~/.cache/calendar.vim/credentials.vim
   let g:calendar_google_calendar = 1
   let g:calendar_google_task = 1
+  let g:goyo_width = '50%'
   nmap <silent> gx :!open <cWORD><cr>
   nnoremap <leader>ff <cmd>Telescope find_files<cr>
   nnoremap <leader>fg <cmd>Telescope live_grep<cr>
   nnoremap <leader>fb <cmd>Telescope buffers<cr>
   nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-  map <leader>f :Goyo \| set bg=light \| set linebreak<CR>
+  map <leader>f :Goyo <CR>
   let g:XkbSwitchEnabled = 1
   noremap j jzz
   noremap k kzz
+  set termguicolors
   set number relativenumber
   set nu rnu
   set t_Co=256   " This is may or may not needed.
@@ -253,7 +272,6 @@ else
     return !col || getline('.')[col - 1]  =~# '\s'
   endfunction
   if exists('g:neovide')
-    set termguicolors
     colorscheme gupywal
     " let g:neovide_cursor_animation_length=0.12
     let g:neovide_cursor_trail_length=5
