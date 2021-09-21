@@ -30,9 +30,9 @@ if ! zgen saved; then
 fi
 
 alias rr="radian"
-alias n="nvim"
-alias vim="nvim"
-# alias nvim="~/nvim-osx64/bin/nvim"
+alias n="/usr/local/bin/nvim"
+alias vim="n"
+alias nvim="nvr"
 alias o2="sshpass -p 'D777ho220**0' ssh ky126@o2.hms.harvard.edu"
 alias bigblack="sshpass -p 123456 ssh kejun@222.200.186.63"
 alias o2scp="sshpass -p 'D777ho220**0' scp"
@@ -63,11 +63,12 @@ cpfile() {
 }
 ### Wall script
 wl_export() {
-  export WALLPAPER=$(osascript -e 'tell app "finder" to get posix path of (get desktop picture as alias)')
+  export WALLPAPER=$(osascript -e 'tell application "System Events" to tell first Desktop to get its picture')
 }
-alias wl='wl_export; wal -i "$WALLPAPER" -n -o "$HOME/.wal_script.sh"'
+alias wl='wl_export; wal -i "$WALLPAPER" -o "$HOME/.wal_script.sh"; sleep 3; yabai -m config window_shadow off'
+
 alias lw='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper -q; wl'
-alias www='python3 /Users/A.Y/Wallhaven-dl/wallhaven-dl.py; ww'
+alias www='rm -rf /Users/A.Y/Wallhaven/*; python3 /Users/A.Y/Wallhaven-dl/wallhaven-dl.py; ww'
 alias ww='wal -i /Users/A.Y/Wallhaven -q; wl'
 alias rw='python3 /Users/A.Y/pywal-reddit/pywal-reddit.py'
 alias sw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/'
@@ -185,3 +186,8 @@ unset __conda_setup
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Sync
+vdirsyncer sync
+clear
+khal calendar

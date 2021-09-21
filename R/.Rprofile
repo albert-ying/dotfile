@@ -33,16 +33,12 @@ library(tidylog)
 library(ggthemes)
 
 ## change global theme settings (for all following plots)
+## fall back theme
 theme_set(
   theme_ipsum(plot_title_size = 28, subtitle_size = 22, base_size = 18, axis_title_size = 24, strip_text_size = 22, base_family = "Helvetica", axis_title_just = "mc") +
-  ggthemes::theme_tufte(base_size = 18, base_family = "Helvetica") +
     theme(
-      # plot.title.size = 28, subtitle.size = 22, axis.title.size = 24, strip.text.size = 22, axis.title.just = "mc",
       plot.title.position = "plot", plot.caption.position = "plot", legend.position = "right", plot.margin = margin(25, 25, 10, 25),
-      # axis.ticks = element_line(color = "grey92"),
-      axis.ticks = element_line(size = .25, color = "black"),
-      axis.ticks.length = unit(.6, "lines"),
-      panel.grid.minor = element_blank(),
+      axis.ticks = element_line(color = "grey92"),
       panel.grid.major = element_blank(),
       legend.text = element_text(color = "grey30"),
       plot.subtitle = element_text(color = "grey30"),
@@ -50,9 +46,9 @@ theme_set(
     ) +
   theme(plot.title = element_markdown(), plot.subtitle = element_markdown(), plot.caption = element_markdown(margin = margin(t = 15)), axis.title.x = element_markdown(), axis.title.y = element_markdown())
 )
-
 # Mimic Base R break
 base_breaks <- function(x, y, scale_x = T, scale_y = T) {
+  require(ggthemes)
   if (scale_x) {
     b1 = pretty(x)
     sx = scale_x_continuous(breaks=b1)
@@ -69,10 +65,12 @@ base_breaks <- function(x, y, scale_x = T, scale_y = T) {
   }
   d = data.frame(x=c(min(b1), max(b1)), y=c(min(b2), max(b2)))
   list(
-    sx, sy, geom_rangeframe(data = d, aes(x=x, y=y), inherit.aes = FALSE)
+    sx, sy, geom_rangeframe(data = d, aes(x=x, y=y), inherit.aes = FALSE), ggthemes::theme_tufte(base_size = 18, base_family = "Helvetica"), theme(axis.ticks = element_line(size = 0.25, color = "black"), axis.ticks.length = unit(.6, "lines"), panel.grid.minor = element_blank())
   )
 }
+
 base_mode = function(p, i = 1) {
+  require(ggthemes)
   px = p + geom_point()
   p_tb = ggplot_build(px)$data[[length(ggplot_build(px)$data)]] |> as_tibble()
   if (class(p_tb$x)[1] != "mapped_discrete" & class(p_tb$y)[1] != "mapped_discrete") {

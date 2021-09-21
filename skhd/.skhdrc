@@ -1,3 +1,5 @@
+shift + ctrl + alt + cmd - x : yabai -m space --destroy
+
 # focus window
 alt - x : yabai -m window --focus recent
 #alt - h : yabai -m window --focus west
@@ -36,7 +38,7 @@ alt - right : yabai -m window --swap east; yabai -m window --grid 1:2:1:0:1:1
 ## shift + cmd - l : yabai -m window --warp east
 #
 ## balance size of windows
-shift + alt - 0 : yabai -m space --balance
+shift + alt - return : yabai -m space --balance
 #
 ## make floating window fill screen
 ctrl + alt - return     : yabai -m window --grid 1:1:0:0:1:1; yabai -m window --toggle zoom-fullscreen
@@ -53,7 +55,8 @@ ctrl + alt + shift - n : yabai -m space --create && \
 #                yabai -m space --focus "${index}"
 
 ## destroy desktop
-shift + ctrl + alt + cmd - w : yabai -m space --destroy
+#
+
 ctrl + shift + cmd + alt - n : yabai -m space --create && \
                 index="$(yabai -m query --spaces --display | jq 'map(select(."native-fullscreen" == 0))[-1].index')" && \
                 yabai -m space --focus "${index}"
@@ -134,8 +137,7 @@ shift + cmd - d : yabai -m window --resize right:-20:0
 ctrl + alt - i : yabai -m window --insert stack
 #
 ## rotate tree
-alt - r : yabai -m space --rotate 90
-#
+alt - r : win=$(yabai -m query --windows --window last | jq '.id'); while : ; do yabai -m window $win --swap prev &> /dev/null; if [[ $? -eq 1 ]]; then break; fi; done; yabai -m window --focus prev
 ## mirror tree y-axis
 #alt - y : yabai -m space --mirror y-axis
 #
@@ -160,7 +162,7 @@ alt - f : yabai -m window --toggle float && /tmp/yabai-restore/$(yabai -m query 
 alt - f : yabai -m window --toggle float && yabai -m window --grid 4:4:1:1:2:2
 
 ## toggle sticky (show on all spaces)
-alt - s : yabai -m window --toggle sticky
+# alt - s : yabai -m window --toggle sticky
 #
 ## toggle topmost (keep above other windows)
 alt - o : yabai -m window --toggle topmost
@@ -168,6 +170,7 @@ alt - o : yabai -m window --toggle topmost
 ## toggle picture-in-picture
 alt - p : yabai -m window --toggle border && \
           yabai -m window --toggle pip
+alt - b : yabai -m window --toggle border
 alt - space : yabai -m window --opacity 1.0
 alt - z : yabai -m window --opacity 0.0
 #
@@ -175,6 +178,8 @@ alt - z : yabai -m window --opacity 0.0
 #ctrl + alt - a : yabai -m space --layout bsp
 #ctrl + alt - d : yabai -m space --layout float
 ctrl + alt - e : yabai -m space --layout $(yabai -m query --spaces --space | jq -r 'if .type == "bsp" then "float" else "bsp" end')
+ 
+alt - t : yabai -m space --mirror y-axis
 
 # Wal
-cmd + alt - m : wl_export; wal -i "$WALLPAPER" -n -o "~/.wal_script.sh
+# alt - w : WALLPAPER=$(osascript -e 'tell application "System Events" to tell first Desktop to get its picture'); wal -i "$WALLPAPER" -o "$HOME/.wal_script.sh"; sleep 3; yabai -m config window_shadow off
