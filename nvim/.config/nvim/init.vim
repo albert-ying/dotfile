@@ -13,11 +13,13 @@ noremap L $
 noremap Y y$
 noremap <leader>H H
 noremap <leader>L L
-noremap <leader>n nzz
-noremap <leader>N Nzz
+noremap n nzz
+noremap N Nzz
 noremap J mzJ`z
-nnoremap <leader>o mzo<Esc>`z
-nnoremap <leader>O mzO<Esc>`z
+noremap <c-d> 20jzz
+noremap <c-u> 20kzz
+nnoremap <leader>o mzo<Esc>`z`z
+nnoremap <leader>O mzO<Esc>`z`z
 
 " input breakpoint
 inoremap , ,<c-g>u
@@ -36,6 +38,9 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+inoremap � <c-w>
+inoremap <M-BS> <c-w>
+
 " Better indenting
 vnoremap < <gv
 vnoremap > >gv
@@ -43,20 +48,31 @@ if exists('g:vscode')
   nnoremap gk :<C-u>call VSCodeCall('cursorMove', { 'to': 'up', 'by': 'wrappedLine', 'value': v:count ? v:count : 1 })<CR>
   nnoremap gj :<C-u>call VSCodeCall('cursorMove', { 'to': 'down', 'by': 'wrappedLine', 'value': v:count ? v:count : 1 })<CR>
   call plug#begin('~/.config/nvim/plugged')
-  Plug 'lyokha/vim-xkbswitch'
-  " Plug 'https://github.com/asvetliakov/vim-easymotion.git'
+  " Plug 'lyokha/vim-xkbswitch'
+  Plug 'FooSoft/vim-argwrap'
+  Plug 'ybian/smartim'
   Plug 'ChristianChiarulli/vscode-easymotion'
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-abolish'
   Plug 'haya14busa/incsearch.vim'
   Plug 'haya14busa/incsearch-easymotion.vim'
-  Plug 'tpope/vim-surround'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Plug 'tpope/vim-surround'
   Plug 'unblevable/quick-scope'
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
+  Plug 'wellle/targets.vim'
+  Plug 'godlygeek/tabular'
+  Plug 'junegunn/vim-easy-align'
+  Plug 'justinmk/vim-sneak'
+  Plug 'machakann/vim-sandwich'
+  Plug 'kana/vim-textobj-user'
+  Plug 'preservim/vim-textobj-sentence'
+  Plug 'ferrine/md-img-paste.vim'
+  Plug 'kana/vim-textobj-function'
   call plug#end()
-  " set textwidth=145
-  let g:XkbSwitchEnabled = 1
+  set textwidth=145
+  " let g:XkbSwitchEnabled = 1
   " Simulate same TAB behavior in VSCode
   nmap <Tab> :Tabnext<CR>
   nmap <S-Tab> :Tabprev<CR>
@@ -64,47 +80,22 @@ if exists('g:vscode')
   "nnoremap gj j
   "nnoremap gk k
   " workaround for calling command picker in visual mode
-  function! s:openVSCodeCommandsInVisualMode()
-    normal! gv
-    let visualmode = visualmode()
-    if visualmode == "V"
-      let startLine = line("v")
-      let endLine = line(".")
-      call VSCodeNotifyRange("workbench.action.showCommands", startLine, endLine, 1) else let startPos = getpos("v") let endPos = getpos(".")
-      call VSCodeNotifyRangePos("workbench.action.showCommands", startPos[1], endPos[1], startPos[2], endPos[2], 1)
-    endif
+  function! VSCodeNotifyVisual(cmd, leaveSelection, ...)
+      let mode = mode()
+      if mode ==# 'V'
+          let startLine = line('v')
+          let endLine = line('.')
+          call VSCodeNotifyRange(a:cmd, startLine, endLine, a:leaveSelection, a:000)
+      elseif mode ==# 'v' || mode ==# "\<C-v>"
+          let startPos = getpos('v')
+          let endPos = getpos('.')
+          call VSCodeNotifyRangePos(a:cmd, startPos[1], endPos[1], startPos[2], endPos[2] + 1, a:leaveSelection, a:000)
+      else
+          call VSCodeNotify(a:cmd, a:000)
+      endif
   endfunction
-  function! s:RunSelectedRCode()
-    normal! gv
-    let visualmode = visualmode()
-    if visualmode == "V"
-      let startLine = line("v")
-      let endLine = line(".")
-      call VSCodeNotifyRange("r.runSelection", startLine, endLine, 1)
-    else
-      let startPos = getpos("v")
-      let endPos = getpos(".")
-      call VSCodeNotifyRangePos("r.runSelection", startPos[1], endPos[1], startPos[2], endPos[2], 1)
-    endif
-  endfunction
-  function! s:RunSelectedPyCode()
-    normal! gv
-    let visualmode = visualmode()
-    if visualmode == "V"
-      let startLine = line("v")
-      let endLine = line(".")
-      call VSCodeNotifyRange("workbench.action.terminal.runSelectedText", startLine, endLine, 1)
-    else
-      let startPos = getpos("v")
-      let endPos = getpos(".")
-      call VSCodeNotifyRangePos("workbench.action.terminal.runSelectedText", startPos[1], endPos[1], startPos[2], endPos[2], 1)
-    endif
-  endfunction
-  xmap gc  <Plug>VSCodeCommentary
-  nmap gc  <Plug>VSCodeCommentary
-  omap gc  <Plug>VSCodeCommentary
-  nmap gcc <Plug>VSCodeCommentaryLine
-  xnoremap <silent> <D-CR> :<C-u>call <SID>RunSelectedPyCode()<CR>
+
+  xnoremap <D-P> <Cmd>call VSCodeNotifyVisual('workbench.action.showCommands', 1)<CR>
 
   augroup filetypedetect
 
@@ -114,7 +105,19 @@ if exists('g:vscode')
 
   augroup END
 
-  au FileType r xnoremap <silent> <D-CR> :<C-u>call <SID>RunSelectedRCode()<CR>
+  au FileType r xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('r.runSelection', 1)<CR>
+  xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('workbench.action.terminal.runSelectedText', 1)<CR>
+
+  xmap gc  <Plug>VSCodeCommentary
+  nmap gc  <Plug>VSCodeCommentary
+  omap gc  <Plug>VSCodeCommentary
+  nmap gcc <Plug>VSCodeCommentaryLine
+
+  highlight OperatorSandwichBuns guifg='#aa91a0' gui=underline ctermfg=172 cterm=underline 
+  highlight OperatorSandwichChange guifg='#edc41f' gui=underline ctermfg='yellow' cterm=underline
+  highlight OperatorSandwichAdd guibg='#b1fa87' gui=none ctermbg='green' cterm=none
+  highlight OperatorSandwichDelete guibg='#cf5963' gui=none ctermbg='red' cterm=none
+
 
   function! s:split(...) abort
     let direction = a:1
@@ -217,9 +220,11 @@ if exists('g:vscode')
 
 else
   call plug#begin('~/.config/nvim/plugged')
+  Plug 'FooSoft/vim-argwrap'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
+  Plug 'ybian/smartim'
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
   Plug 'https://github.com/easymotion/vim-easymotion', {'dir': g:plug_home.'/vim-easymotion-original'}
   Plug 'lyokha/vim-xkbswitch'
@@ -227,7 +232,7 @@ else
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-repeat'
   Plug 'haya14busa/incsearch.vim'
-  Plug 'tpope/vim-surround'
+  " Plug 'tpope/vim-surround'
   " Plug 'ayu-theme/ayu-vim' " or other package manager
   Plug 'typkrft/wal.vim', {'dir': g:plug_home.'/gupywal', 'as': 'pywal_gui'}
   " Plug 'dylanaraps/wal.vim'
@@ -238,6 +243,14 @@ else
   Plug 'unblevable/quick-scope'
   Plug 'michaeljsmith/vim-indent-object'
   Plug 'bkad/CamelCaseMotion'
+  Plug 'wellle/targets.vim'
+  Plug 'godlygeek/tabular'
+  Plug 'junegunn/vim-easy-align'
+  Plug 'justinmk/vim-sneak'
+  Plug 'machakann/vim-sandwich'
+  Plug 'kana/vim-textobj-user'
+  Plug 'preservim/vim-textobj-sentence'
+  Plug 'ferrine/md-img-paste.vim'
   call plug#end()
   colorscheme gupywal
   " Calendar
@@ -280,7 +293,7 @@ else
   endif
   if exists('g:started_by_firenvim')
     set spell spelllang=en,cjk
-    set guifont=Operator\ Mono\ Lig:h18
+    set guifont=Operator\ Mono\ Lig:h16
     set ft=markdown
     set termguicolors
     colorscheme gupywal
@@ -417,3 +430,99 @@ nm <leader><leader>d :call ToggleDeadKeys()<CR>
 nm <leader><leader>i :call ToggleIPA()<CR>
 " imap <leader><leader>i <esc>:call ToggleIPA()<CR>a
 nm <leader><leader>p :call ToggleProse()<CR>
+
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
+
+call textobj#user#plugin('datetime', {
+\   'date': {
+\     'pattern': '\<\d\d\d\d-\d\d-\d\d\>',
+\     'select': ['ad', 'id'],
+\   },
+\   'time': {
+\     'pattern': '\<\d\d:\d\d:\d\d\>',
+\     'select': ['at', 'it'],
+\   },
+\ })
+
+" For R function
+
+call textobj#user#plugin('functionx', {
+\   'dae': {
+\     'pattern': '\S\+(.*)',
+\     'select': ['af'],
+\   },
+\ })
+
+call textobj#user#plugin('functiony', {
+\   'angle': {
+\     'pattern': ['\S\+(', ')'],
+\     'select-i': 'if',
+\   },
+\ })
+
+" nmap <buffer><silent> <leader><leader>p :call mdip#MarkdownClipboardImage()<CR>
+" " there are some defaults for image directory and image name, you can change them
+" " let g:mdip_imgdir = 'img'
+" " let g:mdip_imgname = 'image'
+"
+
+" Config Sandwich
+
+let g:sandwich#recipes = deepcopy(g:sandwich#default_recipes)
+
+let g:sandwich#recipes += [
+      \   {
+      \     'buns'        : ['{', '}'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['add'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[+1,']-1normal! >>"],
+      \   },
+      \   {
+      \     'buns'        : ['{', '}'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['delete'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[,']normal! <<"],
+      \   }
+      \ ]
+
+let g:sandwich#recipes += [
+      \   {
+      \     'buns'        : ['(', ')'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['add'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[+1,']-1normal! >>"],
+      \   },
+      \   {
+      \     'buns'        : ['(', ')'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['delete'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[,']normal! <<"],
+      \   }
+      \ ]
+
+let g:textobj_sandwich_no_default_key_mappings = 1
+xmap ie <Plug>(textobj-sandwich-auto-i)
+omap ie <Plug>(textobj-sandwich-auto-i)
+xmap ae <Plug>(textobj-sandwich-auto-a)
+omap ae <Plug>(textobj-sandwich-auto-a)
+
+xmap iq <Plug>(textobj-sandwich-query-i)
+omap iq <Plug>(textobj-sandwich-query-i)
+xmap aq <Plug>(textobj-sandwich-query-a)
+omap aq <Plug>(textobj-sandwich-query-a)
+
+nmap <silent> w <Plug>(coc-ci-w)
+nmap <silent> b <Plug>(coc-ci-b)
+" vmap <silent> w <Plug>(coc-ci-w)
+" vmap <silent> b <Plug>(coc-ci-b)
+" omap <silent> w <Plug>(coc-ci-w)
+" omap <silent> b <Plug>(coc-ci-b)
+
+nnoremap <silent> S f(l:ArgWrap<CR>
