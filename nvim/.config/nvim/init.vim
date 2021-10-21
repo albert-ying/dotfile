@@ -48,12 +48,15 @@ if exists('g:vscode')
   nnoremap gk :<C-u>call VSCodeCall('cursorMove', { 'to': 'up', 'by': 'wrappedLine', 'value': v:count ? v:count : 1 })<CR>
   nnoremap gj :<C-u>call VSCodeCall('cursorMove', { 'to': 'down', 'by': 'wrappedLine', 'value': v:count ? v:count : 1 })<CR>
   call plug#begin('~/.config/nvim/plugged')
-  Plug 'lyokha/vim-xkbswitch'
+  " Plug 'lyokha/vim-xkbswitch'
+  Plug 'FooSoft/vim-argwrap'
+  Plug 'ybian/smartim'
   Plug 'ChristianChiarulli/vscode-easymotion'
   Plug 'tpope/vim-repeat'
   Plug 'tpope/vim-abolish'
   Plug 'haya14busa/incsearch.vim'
   Plug 'haya14busa/incsearch-easymotion.vim'
+  Plug 'neoclide/coc.nvim', {'branch': 'release'}
   " Plug 'tpope/vim-surround'
   Plug 'unblevable/quick-scope'
   Plug 'michaeljsmith/vim-indent-object'
@@ -64,11 +67,12 @@ if exists('g:vscode')
   Plug 'justinmk/vim-sneak'
   Plug 'machakann/vim-sandwich'
   Plug 'kana/vim-textobj-user'
+  Plug 'preservim/vim-textobj-sentence'
   Plug 'ferrine/md-img-paste.vim'
-  " Plug 'kana/vim-textobj-function'
+  Plug 'kana/vim-textobj-function'
   call plug#end()
   set textwidth=145
-  let g:XkbSwitchEnabled = 1
+  " let g:XkbSwitchEnabled = 1
   " Simulate same TAB behavior in VSCode
   nmap <Tab> :Tabnext<CR>
   nmap <S-Tab> :Tabprev<CR>
@@ -216,9 +220,11 @@ if exists('g:vscode')
 
 else
   call plug#begin('~/.config/nvim/plugged')
+  Plug 'FooSoft/vim-argwrap'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
+  Plug 'ybian/smartim'
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
   Plug 'https://github.com/easymotion/vim-easymotion', {'dir': g:plug_home.'/vim-easymotion-original'}
   Plug 'lyokha/vim-xkbswitch'
@@ -226,7 +232,7 @@ else
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-repeat'
   Plug 'haya14busa/incsearch.vim'
-  Plug 'tpope/vim-surround'
+  " Plug 'tpope/vim-surround'
   " Plug 'ayu-theme/ayu-vim' " or other package manager
   Plug 'typkrft/wal.vim', {'dir': g:plug_home.'/gupywal', 'as': 'pywal_gui'}
   " Plug 'dylanaraps/wal.vim'
@@ -243,6 +249,7 @@ else
   Plug 'justinmk/vim-sneak'
   Plug 'machakann/vim-sandwich'
   Plug 'kana/vim-textobj-user'
+  Plug 'preservim/vim-textobj-sentence'
   Plug 'ferrine/md-img-paste.vim'
   call plug#end()
   colorscheme gupywal
@@ -460,3 +467,62 @@ call textobj#user#plugin('functiony', {
 " " there are some defaults for image directory and image name, you can change them
 " " let g:mdip_imgdir = 'img'
 " " let g:mdip_imgname = 'image'
+"
+
+" Config Sandwich
+
+let g:sandwich#recipes = deepcopy(g:sandwich#default_recipes)
+
+let g:sandwich#recipes += [
+      \   {
+      \     'buns'        : ['{', '}'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['add'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[+1,']-1normal! >>"],
+      \   },
+      \   {
+      \     'buns'        : ['{', '}'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['delete'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[,']normal! <<"],
+      \   }
+      \ ]
+
+let g:sandwich#recipes += [
+      \   {
+      \     'buns'        : ['(', ')'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['add'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[+1,']-1normal! >>"],
+      \   },
+      \   {
+      \     'buns'        : ['(', ')'],
+      \     'motionwise'  : ['line'],
+      \     'kind'        : ['delete'],
+      \     'linewise'    : 1,
+      \     'command'     : ["'[,']normal! <<"],
+      \   }
+      \ ]
+
+let g:textobj_sandwich_no_default_key_mappings = 1
+xmap ie <Plug>(textobj-sandwich-auto-i)
+omap ie <Plug>(textobj-sandwich-auto-i)
+xmap ae <Plug>(textobj-sandwich-auto-a)
+omap ae <Plug>(textobj-sandwich-auto-a)
+
+xmap iq <Plug>(textobj-sandwich-query-i)
+omap iq <Plug>(textobj-sandwich-query-i)
+xmap aq <Plug>(textobj-sandwich-query-a)
+omap aq <Plug>(textobj-sandwich-query-a)
+
+nmap <silent> w <Plug>(coc-ci-w)
+nmap <silent> b <Plug>(coc-ci-b)
+" vmap <silent> w <Plug>(coc-ci-w)
+" vmap <silent> b <Plug>(coc-ci-b)
+" omap <silent> w <Plug>(coc-ci-w)
+" omap <silent> b <Plug>(coc-ci-b)
+
+nnoremap <silent> S f(l:ArgWrap<CR>
