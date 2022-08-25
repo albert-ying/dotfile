@@ -5,10 +5,14 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-export PYTHONPATH=~/zoteroutils:${PYTHONPATH}
-export NEOVIDE_FRAMELESS=1
-export NeovideMultiGrid=1
-(cat ~/.cache/wal/sequences &)
+export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+export OPENAI_API_KEY="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"
+
+# export PYTHONPATH=~/zoteroutils:${PYTHONPATH}
+# export NEOVIDE_FRAMELESS=1
+# export NeovideMultiGrid=1
+# (cat ~/.cache/wal/sequences &)
 #source ~/.oh-my-zsh/oh-my-zsh.sh
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
@@ -43,7 +47,7 @@ alias aging="ssh -Y -l kying -p 2023 -o UserKnownHostsFile=/dev/null -o StrictHo
 alias ls='exa'
 alias z='zathura --fork'
 alias fasdown="scp -r kying@login.rc.fas.harvard.edu:/n/home00/kying/outbox/ ./"
-alias python3="/Users/A.Y/miniconda3/bin/python3"
+alias ta="tmux a"
 export EDITOR="/usr/local/bin/nvim"
 #export DISPLAY=localhost:11.0
 
@@ -168,25 +172,26 @@ export PATH="/usr/local/opt/cython/bin:$PATH"
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-source "$HOME/zsh-vim-mode/zsh-vim-mode.plugin.zsh"
+# source "$HOME/zsh-vim-mode/zsh-vim-mode.plugin.zsh"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/Users/A.Y/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+__conda_setup="$('/home/kying/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
 if [ $? -eq 0 ]; then
     eval "$__conda_setup"
 else
-    if [ -f "/Users/A.Y/miniconda3/etc/profile.d/conda.sh" ]; then
-        . "/Users/A.Y/miniconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/kying/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/kying/anaconda3/etc/profile.d/conda.sh"
     else
-        export PATH="/Users/A.Y/miniconda3/bin:$PATH"
+        export PATH="/home/kying/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda initialize <<<
 
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
 source ~/.bashrc
 
 # Sync
@@ -201,3 +206,12 @@ _fzf_comprun() {
   esac
 }
 export PATH="/usr/local/opt/openssl@3/bin:$PATH"
+
+eval $(thefuck --alias)
+alias fk="fuck"
+
+alias envset='export "`tmux showenv PATH`" ; export "`tmux showenv GIT_ASKPASS`" ; export "`tmux showenv VSCODE_GIT_ASKPASS_MAIN`"
+; export "`tmux showenv VSCODE_GIT_ASKPASS_NODE`" ; export "`tmux showenv VSCODE_IPC_HOOK_CLI`"'
+
+alias ipy="envset; ipython"
+

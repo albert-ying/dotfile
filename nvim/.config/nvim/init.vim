@@ -65,8 +65,7 @@ if exists('g:vscode')
   Plug 'godlygeek/tabular'
   Plug 'junegunn/vim-easy-align'
   Plug 'justinmk/vim-sneak'
-  Plug 'machakann/vim-sandwich'
-  Plug 'kana/vim-textobj-user'
+  Plug 'machakann/vim-sandwich' Plug 'kana/vim-textobj-user'
   Plug 'preservim/vim-textobj-sentence'
   Plug 'ferrine/md-img-paste.vim'
   Plug 'kana/vim-textobj-function'
@@ -227,9 +226,8 @@ else
   Plug 'ybian/smartim'
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
   Plug 'https://github.com/easymotion/vim-easymotion', {'dir': g:plug_home.'/vim-easymotion-original'}
-  Plug 'lyokha/vim-xkbswitch'
   Plug 'tpope/vim-abolish'
-  Plug 'neoclide/coc.nvim', {'branch': 'release'}
+  " Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'tpope/vim-repeat'
   Plug 'haya14busa/incsearch.vim'
   " Plug 'tpope/vim-surround'
@@ -252,11 +250,12 @@ else
   Plug 'preservim/vim-textobj-sentence'
   Plug 'ferrine/md-img-paste.vim'
   call plug#end()
-  colorscheme gupywal
+  " colorscheme gupywal
+  " set termguicolors
   " Calendar
-  source ~/.cache/calendar.vim/credentials.vim
-  let g:calendar_google_calendar = 1
-  let g:calendar_google_task = 1
+  " source ~/.cache/calendar.vim/credentials.vim
+  " let g:calendar_google_calendar = 1
+  " let g:calendar_google_task = 1
   let g:goyo_width = '50%'
   nmap <silent> gx :!open <cWORD><cr>
   nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -267,7 +266,6 @@ else
   let g:XkbSwitchEnabled = 1
   noremap j jzz
   noremap k kzz
-  set termguicolors
   set number relativenumber
   set nu rnu
   set t_Co=256   " This is may or may not needed.

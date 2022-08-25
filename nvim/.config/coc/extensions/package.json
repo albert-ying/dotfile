@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "coc-browser": ">=1.2.6",
-    "coc-ci": ">=0.1.0",
-    "coc-grammarly": ">=0.0.1",
-    "coc-tabnine": ">=1.2.2"
-  }
-}
