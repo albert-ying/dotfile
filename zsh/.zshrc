@@ -1,3 +1,15 @@
+
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the start of this file.
+# [ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
+#### END FIG ENV VARIABLES ####
+
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PYTHONPATH=~/zoteroutils:${PYTHONPATH}
+export NEOVIDE_FRAMELESS=1
+export NeovideMultiGrid=1
+export ANDROID_HOME=~/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -5,6 +17,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+<<<<<<< HEAD
 export LD_LIBRARY_PATH=/usr/local/lib:$LD_LIBRARY_PATH
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
 export OPENAI_API_KEY="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"
@@ -13,6 +26,18 @@ export OPENAI_API_KEY="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"
 # export NEOVIDE_FRAMELESS=1
 # export NeovideMultiGrid=1
 # (cat ~/.cache/wal/sequences &)
+=======
+###############
+nincat --random --center
+echo "
+
+Welcome!
+
+"
+##############
+
+(cat ~/.cache/wal/sequences &)
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40
 #source ~/.oh-my-zsh/oh-my-zsh.sh
 # load zgen
 source "${HOME}/.zgen/zgen.zsh"
@@ -44,16 +69,21 @@ alias fas="ssh -CY kying@boslogin04.rc.fas.harvard.edu"
 alias main="ssh -Y -L2023:aging:22    kx461@ssh.partners.org"
 alias main2="ssh -Y -L2023:aging:22    kx461@ssh3.partners.org"
 alias aging="ssh -Y -l kying -p 2023 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no localhost"
-alias ls='exa'
+alias ls='exa --icons'
+alias lln='ls --icons -snew'
 alias z='zathura --fork'
 alias fasdown="scp -r kying@login.rc.fas.harvard.edu:/n/home00/kying/outbox/ ./"
+<<<<<<< HEAD
+=======
+alias python3="/Users/A.Y/miniconda3/bin/python3"
+alias yo="open -a Yoink"
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40
 alias ta="tmux a"
 export EDITOR="/usr/local/bin/nvim"
 #export DISPLAY=localhost:11.0
 
 # plugins=(git zsh-autosuggestions autojump zsh-syntax-highlighting)
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="/Users/A.Y/.oh-my-zsh"
@@ -71,6 +101,7 @@ wl_export() {
   export WALLPAPER=$(osascript -e 'tell application "System Events" to tell first Desktop to get its picture')
 }
 alias wl='wl_export; wal -i "$WALLPAPER" -o "$HOME/.wal_script.sh"; sleep 3; yabai -m config window_shadow off'
+alias wll='wl_export; wal -i "$WALLPAPER" -o "$HOME/.wal_script.sh" -l; sleep 3; yabai -m config window_shadow off'
 
 alias lw='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper -q; wl'
 alias www='rm -rf /Users/A.Y/Wallhaven/*; python3 /Users/A.Y/Wallhaven-dl/wallhaven-dl.py; ww'
@@ -79,6 +110,9 @@ alias rw='python3 /Users/A.Y/pywal-reddit/pywal-reddit.py'
 alias sw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/'
 alias fw='wl_export; cp "$WALLPAPER" /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/favorite'
 alias fwl='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/favorite -q; wl'
+alias dwl='wal -i /Users/A.Y/OneDrive\ -\ Harvard\ University/Wallpaper/doraemon -q; wl'
+alias rwl='wal -i /Users/A.Y/Pictures/Reddit-Wall -q ; wl'
+alias tw='/Users/A.Y/programs/ImageTheming/imagetheme_wal.sh'
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -195,7 +229,7 @@ unset __conda_setup
 source ~/.bashrc
 
 # Sync
-export FZF_COMPLETION_TRIGGER=''
+export FZF_COMPLETION_TRIGGER='*'
 _fzf_comprun() {
   local command=$1
   shift
@@ -210,8 +244,17 @@ export PATH="/usr/local/opt/openssl@3/bin:$PATH"
 eval $(thefuck --alias)
 alias fk="fuck"
 
+<<<<<<< HEAD
 alias envset='export "`tmux showenv PATH`" ; export "`tmux showenv GIT_ASKPASS`" ; export "`tmux showenv VSCODE_GIT_ASKPASS_MAIN`"
 ; export "`tmux showenv VSCODE_GIT_ASKPASS_NODE`" ; export "`tmux showenv VSCODE_IPC_HOOK_CLI`"'
 
 alias ipy="envset; ipython"
 
+=======
+#### FIG ENV VARIABLES ####
+# Please make sure this block is at the end of this file.
+# [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
+#### END FIG ENV VARIABLES ####
+
+(trash ~/trash/*) &>/dev/null
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40

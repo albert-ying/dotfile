@@ -363,5 +363,13 @@ tmux_conf_copy_to_os_clipboard=false
 #
 # "$@"
 # # /!\ do not remove the previous line
+<<<<<<< HEAD
 # update VSCODE variables from integrated terminal so that `code` command opens in current window
 set-option -ga update-environment ' VSCODE_GIT_ASKPASS_NODE VSCODE_GIT_ASKPASS_MAIN VSCODE_IPC_HOOK_CLI PATH GIT_ASKPASS'
+=======
+
+
+# Fig Tmux Integration: Enabled
+source-file ~/.fig/tmux
+# End of Fig Tmux Integration
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40

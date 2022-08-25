@@ -3,11 +3,12 @@ filetype plugin on
 syntax on
 set clipboard+=unnamedplus
 set undofile
-" set nojoinspaces
+set incsearch
 let g:EasyMotion_verbose = 0
+" set nojoinspaces
 "g Leader key
-let mapleader=" "
 noremap \ ,
+let mapleader=" "
 noremap H ^
 noremap L $
 noremap Y y$
@@ -64,35 +65,44 @@ if exists('g:vscode')
   Plug 'wellle/targets.vim'
   Plug 'godlygeek/tabular'
   Plug 'junegunn/vim-easy-align'
+<<<<<<< HEAD
   Plug 'justinmk/vim-sneak'
   Plug 'machakann/vim-sandwich' Plug 'kana/vim-textobj-user'
   Plug 'preservim/vim-textobj-sentence'
+=======
+  " Plug 'justinmk/vim-sneak'
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40
   Plug 'ferrine/md-img-paste.vim'
+  Plug 'kana/vim-textobj-user'
   Plug 'kana/vim-textobj-function'
+  Plug 'preservim/vim-textobj-sentence'
+  Plug 'machakann/vim-sandwich'
+  " Plug 'ggandor/lightspeed.nvim'
   call plug#end()
   set textwidth=145
+  " map s <Plug>Lightspeed_omni_s
   " let g:XkbSwitchEnabled = 1
   " Simulate same TAB behavior in VSCode
-  nmap <Tab> :Tabnext<CR>
-  nmap <S-Tab> :Tabprev<CR>
+  nnoremap <Tab> :Tabnext<CR>
+  nnoremap <S-Tab> :Tabprev<CR>
   " Workaround for gk/gj
   "nnoremap gj j
   "nnoremap gk k
   " workaround for calling command picker in visual mode
-  function! VSCodeNotifyVisual(cmd, leaveSelection, ...)
-      let mode = mode()
-      if mode ==# 'V'
-          let startLine = line('v')
-          let endLine = line('.')
-          call VSCodeNotifyRange(a:cmd, startLine, endLine, a:leaveSelection, a:000)
-      elseif mode ==# 'v' || mode ==# "\<C-v>"
-          let startPos = getpos('v')
-          let endPos = getpos('.')
-          call VSCodeNotifyRangePos(a:cmd, startPos[1], endPos[1], startPos[2], endPos[2] + 1, a:leaveSelection, a:000)
-      else
-          call VSCodeNotify(a:cmd, a:000)
-      endif
-  endfunction
+  " function! VSCodeNotifyVisual(cmd, leaveSelection, ...)
+  "     let mode = mode()
+  "     if mode ==# 'V'
+  "         let startLine = line('v')
+  "         let endLine = line('.')
+  "         call VSCodeNotifyRange(a:cmd, startLine, endLine, a:leaveSelection, a:000)
+  "     elseif mode ==# 'v' || mode ==# "\<C-v>"
+  "         let startPos = getpos('v')
+  "         let endPos = getpos('.')
+  "         call VSCodeNotifyRangePos(a:cmd, startPos[1], endPos[1], startPos[2], endPos[2] + 1, a:leaveSelection, a:000)
+  "     else
+  "         call VSCodeNotify(a:cmd, a:000)
+  "     endif
+  " endfunction
 
   xnoremap <D-P> <Cmd>call VSCodeNotifyVisual('workbench.action.showCommands', 1)<CR>
 
@@ -101,11 +111,14 @@ if exists('g:vscode')
     " R
     autocmd! BufNewFile,BufRead *.[rRsS] setfiletype r
     autocmd! BufNewFile,BufRead *.[rR]history setfiletype r
+    autocmd! BufNewFile,BufRead *.rmd setfiletype markdown
+    autocmd! BufNewFile,BufRead *.md setfiletype markdown
 
   augroup END
 
-  au FileType r xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('r.runSelection', 1)<CR>
   xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('workbench.action.terminal.runSelectedText', 1)<CR>
+  " au FileType r xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('workbench.action.showCommands', 1)<CR><Esc>call VSCodeNotify('r.runSelection')<CR>
+  au FileType r xnoremap <silent> <D-CR> <Cmd>call VSCodeNotifyVisual('workbench.action.files.save', 1)<CR><Cmd>call VSCodeCall('r.runSelection')<CR>
 
   xmap gc  <Plug>VSCodeCommentary
   nmap gc  <Plug>VSCodeCommentary
@@ -217,12 +230,18 @@ if exists('g:vscode')
 
   xnoremap <silent> <C-P> :<C-u>call <SID>openVSCodeCommandsInVisualMode()<CR>
 
+  augroup textobj_sentence
+    autocmd!
+    autocmd FileType markdown call textobj#sentence#init()
+    autocmd FileType textile call textobj#sentence#init()
+  augroup END
+
 else
   call plug#begin('~/.config/nvim/plugged')
   Plug 'FooSoft/vim-argwrap'
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
-  Plug 'nvim-telescope/telescope.nvim'
+  " Plug 'nvim-telescope/telescope.nvim'
   Plug 'ybian/smartim'
   Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
   Plug 'https://github.com/easymotion/vim-easymotion', {'dir': g:plug_home.'/vim-easymotion-original'}
@@ -244,14 +263,26 @@ else
   Plug 'wellle/targets.vim'
   Plug 'godlygeek/tabular'
   Plug 'junegunn/vim-easy-align'
-  Plug 'justinmk/vim-sneak'
+  " Plug 'justinmk/vim-sneak'
   Plug 'machakann/vim-sandwich'
   Plug 'kana/vim-textobj-user'
-  Plug 'preservim/vim-textobj-sentence'
   Plug 'ferrine/md-img-paste.vim'
+  Plug 'preservim/vim-textobj-sentence'
+  Plug 'ggandor/lightspeed.nvim'
   call plug#end()
+<<<<<<< HEAD
   " colorscheme gupywal
   " set termguicolors
+=======
+  colorscheme gupywal
+
+  map s <Plug>Lightspeed_omni_s
+  augroup textobj_sentence
+    autocmd!
+    autocmd FileType markdown call textobj#sentence#init()
+    autocmd FileType textile call textobj#sentence#init()
+  augroup END
+>>>>>>> 9384fc3d7596f3891dbbba38e3601b800534bb40
   " Calendar
   " source ~/.cache/calendar.vim/credentials.vim
   " let g:calendar_google_calendar = 1
@@ -291,7 +322,7 @@ else
   endif
   if exists('g:started_by_firenvim')
     set spell spelllang=en,cjk
-    set guifont=Operator\ Mono\ Lig:h16
+    set guifont=Operator\ Mono\ Lig:h30
     set ft=markdown
     set termguicolors
     colorscheme gupywal
@@ -328,30 +359,12 @@ nnoremap <leader>y "+y
 vnoremap <leader>y "+y
 nnoremap <leader>Y gg"+yG
 
+" wrap paragraph
+nnoremap <leader><leader>W gwip
+nnoremap <leader><leader>J vipJ
+
 nnoremap <leader>d "_d
 vnoremap <leader>d "_dmap
-map <Leader><Leader> <Plug>(easymotion-prefix)
-map /  <Plug>(incsearch-forward)
-map ?  <Plug>(incsearch-backward)
-map g/ <Plug>(incsearch-stay)
-map z/ <Plug>(incsearch-easymotion-/)
-map z? <Plug>(incsearch-easymotion-?)
-map zg/ <Plug>(incsearch-easymotion-stay)
-map <Leader><Leader>j <Plug>(easymotion-j)
-map <Leader><Leader>k <Plug>(easymotion-k)
-map <leader><leader>h <Plug>(easymotion-linebackward)
-map <leader><leader>l <Plug>(easymotion-lineforward)
-map <leader><leader>. <Plug>(easymotion-repeat)
-function! s:config_easyfuzzymotion(...) abort
-  return extend(copy({
-        \   'converters': [incsearch#config#fuzzy#converter()],
-        \   'modules': [incsearch#config#easymotion#module()],
-        \   'keymap': {"\<CR>": '<Over>(easymotion)'},
-        \   'is_expr': 0,
-        \   'is_stay': 1
-        \ }), get(a:, 1, {}))
-endfunction
-noremap <silent><expr> <Space>/ incsearch#go(<SID>config_easyfuzzymotion())
 let s:pattern = '^\(.* \)\([1-9][0-9]*\)$'
 let s:minfontsize = 6
 let s:maxfontsize = 16
@@ -515,7 +528,7 @@ xmap iq <Plug>(textobj-sandwich-query-i)
 omap iq <Plug>(textobj-sandwich-query-i)
 xmap aq <Plug>(textobj-sandwich-query-a)
 omap aq <Plug>(textobj-sandwich-query-a)
-
+runtime macros/sandwich/keymap/surround.vim
 nmap <silent> w <Plug>(coc-ci-w)
 nmap <silent> b <Plug>(coc-ci-b)
 " vmap <silent> w <Plug>(coc-ci-w)
@@ -524,3 +537,18 @@ nmap <silent> b <Plug>(coc-ci-b)
 " omap <silent> b <Plug>(coc-ci-b)
 
 nnoremap <silent> S f(l:ArgWrap<CR>
+
+
+nmap s <Plug>(easymotion-s2)
+map <Leader><Leader> <Plug>(easymotion-prefix)
+map <leader><leader>/ <Plug>(easymotion-sn)
+" map ? <Plug>(incsearch-backward)
+" map g/ <Plug>(incsearch-stay)
+" map  n <Plug>(easymotion-next)
+" map  N <Plug>(easymotion-prev)
+map <Leader><Leader>j <Plug>(easymotion-j)
+map <Leader><Leader>k <Plug>(easymotion-k)
+map <leader><leader>h <Plug>(easymotion-linebackward)
+map <leader><leader>l <Plug>(easymotion-lineforward)
+map <leader><leader>. <Plug>(easymotion-repeat)
+
